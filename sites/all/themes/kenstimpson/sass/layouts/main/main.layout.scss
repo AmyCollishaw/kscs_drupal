@@ -114,6 +114,10 @@
 	margin-top: 20px;
 	font-size: $smallerText;
 	line-height: 1.2em;
+	a:link
+	{
+		color: #727272;
+	}
 }
 @include breakpoint($desk, true)
 {
