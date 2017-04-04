@@ -110,16 +110,19 @@
   margin-top: 20px;
   font-size: 0.9em;
   line-height: 1.2em; }
+  /* line 117, ../../../sass/layouts/main/main.layout.scss */
+  .ks_bottom a:link {
+    color: #727272; }
 
 @media (min-width: 70em) {
-  /* line 120, ../../../sass/layouts/main/main.layout.scss */
+  /* line 124, ../../../sass/layouts/main/main.layout.scss */
   .ks_bottom_container {
     width: 70em;
     overflow: hidden;
     *zoom: 1;
     margin: auto; }
 
-  /* line 126, ../../../sass/layouts/main/main.layout.scss */
+  /* line 130, ../../../sass/layouts/main/main.layout.scss */
   .ks_bottom_first {
     width: 32.20339%;
     float: left;
@@ -128,7 +131,7 @@
     clear: none;
     border: 0px solid red; }
 
-  /* line 131, ../../../sass/layouts/main/main.layout.scss */
+  /* line 135, ../../../sass/layouts/main/main.layout.scss */
   .ks_bottom_centre {
     width: 32.20339%;
     float: left;
@@ -137,7 +140,7 @@
     clear: none;
     border: 0px solid yellow; }
 
-  /* line 136, ../../../sass/layouts/main/main.layout.scss */
+  /* line 140, ../../../sass/layouts/main/main.layout.scss */
   .ks_bottom_second {
     width: 32.20339%;
     float: right;
@@ -147,18 +150,18 @@
     overflow: hidden;
     *zoom: 1;
     border: 0px solid green; } }
-/* line 144, ../../../sass/layouts/main/main.layout.scss */
+/* line 148, ../../../sass/layouts/main/main.layout.scss */
 .ks_content .block {
   /*mobile view*/
   color: #163251;
   /*tablet view*/
   /*desktop view*/ }
   @media (min-width: 70em) {
-    /* line 144, ../../../sass/layouts/main/main.layout.scss */
+    /* line 148, ../../../sass/layouts/main/main.layout.scss */
     .ks_content .block {
       padding: 5px;
       font-size: 1em; }
-      /* line 160, ../../../sass/layouts/main/main.layout.scss */
+      /* line 164, ../../../sass/layouts/main/main.layout.scss */
       .ks_content .block .block__title {
         font-size: 1.4em;
         padding-top: 0px;
