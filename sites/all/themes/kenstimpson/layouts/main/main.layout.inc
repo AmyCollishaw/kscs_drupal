@@ -1,0 +1,24 @@
+name = Ken Stimpson Main Layout
+description = The main layout for the 2017 refresh.
+preview = preview.png
+template = main-layout
+
+; Regions
+regions[header] = Header
+regions[banner] = Banner
+regions[logo] = Logo
+regions[banner_image] = Banner Image
+regions[menu] = Menu
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[bottom_first] = Bottom First Sidebar
+regions[bottom_centre] = Bottom Centre
+regions[bottom_second] = Bottom Second Sidebar
+regions[footer] = Footer
+
+; Stylesheets
+stylesheets[all][] = css/layouts/main/main.layout.css
+stylesheets[all][] = css/layouts/main/main.layout.no-query.css

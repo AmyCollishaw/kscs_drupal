@@ -1,0 +1,96 @@
+/*******************************************************************************
+ * kenstimpson.background.scss
+ *
+ * Styles for the Background images.
+ ******************************************************************************/
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+@media (min-width: 70em) {
+  /* line 18, ../sass/kenstimpson.background.scss */
+  #background_left_top_bars {
+    z-index: -100;
+    width: 50%;
+    height: 427px;
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    background-image: url("../images/top_left_horizontal_bars.png");
+    background-repeat: repeat-x; }
+
+  /* line 30, ../sass/kenstimpson.background.scss */
+  #background_right_top_bars {
+    z-index: -100;
+    width: 50%;
+    height: 427px;
+    position: absolute;
+    top: 70px;
+    right: 0px;
+    background-image: url("../images/top_right_horizontal_bars.png");
+    background-repeat: repeat-x; }
+
+  /* line 41, ../sass/kenstimpson.background.scss */
+  #background_left_vertical_bars {
+    width: 283px;
+    height: 362px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url("../images/banner_left_vertical_bars.png");
+    background-repeat: no-repeat;
+    z-index: 100;
+    overflow: visible;
+    display: none; }
+
+  /* line 54, ../sass/kenstimpson.background.scss */
+  #background_top_vertical_bar {
+    width: 14px;
+    height: 400px;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    z-index: 100;
+    background-image: url("../images/top_vertical_bar.png");
+    background-repeat: repeat-y; }
+
+  /* line 65, ../sass/kenstimpson.background.scss */
+  .ks_menu {
+    background-image: url("../images/header_horizontal_bar.png");
+    background-repeat: repeat-x;
+    background-position: bottom; }
+
+  /* line 71, ../sass/kenstimpson.background.scss */
+  #menu_left_vertical_bar {
+    background-image: url("../images/content_left_vertical_bar.png");
+    background-repeat: repeat-y;
+    width: 13px;
+    height: 600px;
+    position: absolute;
+    top: 199px;
+    left: -1px;
+    overflow: visible;
+    z-index: 200; }
+
+  /* line 83, ../sass/kenstimpson.background.scss */
+  #background_house_text {
+    background-image: url("../images/house_background.png");
+    background-repeat: repeat-x;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+    z-index: -150;
+    left: 0px;
+    top: 50px; }
+
+  /* line 94, ../sass/kenstimpson.background.scss */
+  .ks_content {
+    background-image: url("../images/menu_horizontal_bar.png");
+    background-repeat: repeat-x;
+    padding-top: 20px;
+    padding-left: 10px;
+    overflow: hidden;
+    *zoom: 1; } }
+
+/*# sourceMappingURL=kenstimpson.background.css.map */

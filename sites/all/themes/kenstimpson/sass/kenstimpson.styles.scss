@@ -1,0 +1,109 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+a:link
+{
+	color: #2F29BB;
+	border-bottom: 1px solid $ksBlue;
+}
+	@include breakpoint($tab, true)
+	{
+		a:link
+		{
+			border-bottom: 1px solid $ksBlue;
+		}
+	}
+	
+	@include breakpoint($desk, true)
+	{
+		a:link
+		{
+			text-decoration: none;
+			border-bottom: none;
+			color: $ksBlue;
+		}
+		a:hover
+		{
+			border-bottom: 1px solid $ksBlue;
+		}
+	}
+
+.main_ks_body .ks_menu
+{
+	/*Mobile view*/
+	width: 97%;
+	text-align: center;
+	background-color: $ksBlue;
+	@include clearfix;
+	font-size: $mainMenuSize;
+	li
+	{
+		list-style:  none;
+		display: block;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+	li a
+	{
+		text-decoration: none;
+		color: #FFF;
+	}
+	li a:hover
+	{
+		text-decoration: underline;
+	}
+	/*tab view*/
+	@include breakpoint($tab, true)
+	{
+		color: $ksBlue;
+		background-color: #FFF;
+		li
+		{
+			display: inline-block;
+			list-style:  none;
+		}
+		li a
+		{ 
+			color: $ksBlue;
+		}
+	}
+	/*desktop view*/
+	@include breakpoint($desk, true)
+	{
+		color: $ksBlue;
+		margin-top: 0px;
+		margin-right: 20px;
+		background-color: #FFF;
+		li 
+		{
+			display: inline-block;
+			list-style:  none;
+			width: percentage(1/8);
+			text-align: center;
+		}
+		li a
+		{ 
+			color: $ksBlue;
+		}
+	}
+}

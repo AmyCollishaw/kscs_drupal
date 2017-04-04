@@ -1,0 +1,39 @@
+name = kenstimpson
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/kenstimpson.normalize.css
+stylesheets[all][] = css/kenstimpson.hacks.css
+stylesheets[all][] = css/kenstimpson.styles.css
+stylesheets[all][] = css/kenstimpson.no-query.css
+stylesheets[all][] = css/kenstimpson.background.css
+stylesheets[all][] = css/kenstimpson.views.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/kenstimpson.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[header] = Header
+regions[banner] = Banner
+regions[logo] = Logo
+regions[banner_image] = Banner Image
+regions[menu] = Menu
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[bottom_first] = Bottom First Sidebar
+regions[bottom_centre] = Bottom Centre
+regions[bottom_second] = Bottom Second Sidebar
+regions[footer] = Footer

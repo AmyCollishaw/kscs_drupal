@@ -1,0 +1,75 @@
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 24, ../sass/kenstimpson.styles.scss */
+a:link {
+  color: #2F29BB;
+  border-bottom: 1px solid #163251; }
+
+/* line 31, ../sass/kenstimpson.styles.scss */
+a:link {
+  border-bottom: 1px solid #163251; }
+
+/* line 39, ../sass/kenstimpson.styles.scss */
+a:link {
+  text-decoration: none;
+  border-bottom: none;
+  color: #163251; }
+
+/* line 45, ../sass/kenstimpson.styles.scss */
+a:hover {
+  border-bottom: 1px solid #163251; }
+
+/* line 51, ../sass/kenstimpson.styles.scss */
+.main_ks_body .ks_menu {
+  /*Mobile view*/
+  width: 97%;
+  text-align: center;
+  background-color: #163251;
+  font-size: 1.3em;
+  /*tab view*/
+  color: #163251;
+  background-color: #FFF;
+  /*desktop view*/
+  color: #163251;
+  margin-top: 0px;
+  margin-right: 20px;
+  background-color: #FFF; }
+  /* line 13, ../../../../../../../../lib/gems/2.1.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
+  .main_ks_body .ks_menu:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 59, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu li {
+    list-style: none;
+    display: block;
+    padding-bottom: 5px;
+    text-align: center; }
+  /* line 66, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu li a {
+    text-decoration: none;
+    color: #FFF; }
+  /* line 71, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu li a:hover {
+    text-decoration: underline; }
+  /* line 80, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu li {
+    display: inline-block;
+    list-style: none; }
+  /* line 85, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu li a {
+    color: #163251; }
+  /* line 97, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu li {
+    display: inline-block;
+    list-style: none;
+    width: 12.5%;
+    text-align: center; }
+  /* line 104, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu li a {
+    color: #163251; }
+
+/*# sourceMappingURL=kenstimpson.no-query.css.map */

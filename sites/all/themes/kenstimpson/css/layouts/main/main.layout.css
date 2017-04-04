@@ -1,0 +1,168 @@
+/*******************************************************************************
+ * main.layout.scss
+ *
+ * Styles for the Main layout.
+ ******************************************************************************/
+/* line 13, ../../../sass/layouts/main/main.layout.scss */
+.main_ks_body {
+  margin: 0 auto;
+  z-index: 100;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  overflow: hidden;
+  *zoom: 1;
+  overflow: hidden; }
+  @media (min-width: 44em) {
+    /* line 13, ../../../sass/layouts/main/main.layout.scss */
+    .main_ks_body {
+      width: 44em; } }
+  @media (min-width: 70em) {
+    /* line 13, ../../../sass/layouts/main/main.layout.scss */
+    .main_ks_body {
+      width: 70em;
+      box-shadow: 5px 5px 5px 5px grey;
+      background-color: #fff; } }
+
+/* line 35, ../../../sass/layouts/main/main.layout.scss */
+.ks_header {
+  background-color: #FFF;
+  text-align: right; }
+
+/* line 40, ../../../sass/layouts/main/main.layout.scss */
+.ks_banner {
+  visibility: hidden;
+  display: none;
+  background-color: #FFF;
+  overflow: hidden;
+  *zoom: 1; }
+  @media (min-width: 44em) {
+    /* line 40, ../../../sass/layouts/main/main.layout.scss */
+    .ks_banner {
+      visibility: hidden;
+      display: none; } }
+  @media (min-width: 70em) {
+    /* line 40, ../../../sass/layouts/main/main.layout.scss */
+    .ks_banner {
+      visibility: visible;
+      display: block;
+      position: relative;
+      height: 320px; } }
+
+/* line 59, ../../../sass/layouts/main/main.layout.scss */
+.ks_menu {
+  position: relative; }
+
+@media (min-width: 70em) {
+  /* line 64, ../../../sass/layouts/main/main.layout.scss */
+  .ks_banner .ks_logo {
+    position: absolute;
+    top: 103px;
+    left: 15px;
+    z-index: 200; } }
+
+@media (min-width: 70em) {
+  /* line 75, ../../../sass/layouts/main/main.layout.scss */
+  .ks_banner .ks_banner_image {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 49;
+    width: 866px;
+    height: 320px; } }
+
+@media (min-width: 44em) {
+  /* line 90, ../../../sass/layouts/main/main.layout.scss */
+  .ks_first_sidebar {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    border: 0px solid red; }
+
+  /* line 95, ../../../sass/layouts/main/main.layout.scss */
+  .ks_centre {
+    width: 40.67797%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+    border: 0px solid yellow; }
+
+  /* line 100, ../../../sass/layouts/main/main.layout.scss */
+  .ks_second_sidebar {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    overflow: hidden;
+    *zoom: 1;
+    border: 0px solid green; } }
+/* line 108, ../../../sass/layouts/main/main.layout.scss */
+.ks_bottom {
+  background-color: #163251;
+  color: #727272;
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 20px;
+  font-size: 0.9em;
+  line-height: 1.2em; }
+
+@media (min-width: 70em) {
+  /* line 120, ../../../sass/layouts/main/main.layout.scss */
+  .ks_bottom_container {
+    width: 70em;
+    overflow: hidden;
+    *zoom: 1;
+    margin: auto; }
+
+  /* line 126, ../../../sass/layouts/main/main.layout.scss */
+  .ks_bottom_first {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    border: 0px solid red; }
+
+  /* line 131, ../../../sass/layouts/main/main.layout.scss */
+  .ks_bottom_centre {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 33.89831%;
+    clear: none;
+    border: 0px solid yellow; }
+
+  /* line 136, ../../../sass/layouts/main/main.layout.scss */
+  .ks_bottom_second {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    overflow: hidden;
+    *zoom: 1;
+    border: 0px solid green; } }
+/* line 144, ../../../sass/layouts/main/main.layout.scss */
+.ks_content .block {
+  /*mobile view*/
+  color: #163251;
+  /*tablet view*/
+  /*desktop view*/ }
+  @media (min-width: 70em) {
+    /* line 144, ../../../sass/layouts/main/main.layout.scss */
+    .ks_content .block {
+      padding: 5px;
+      font-size: 1em; }
+      /* line 160, ../../../sass/layouts/main/main.layout.scss */
+      .ks_content .block .block__title {
+        font-size: 1.4em;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin: 0px; } }
+
+/*# sourceMappingURL=main.layout.css.map */

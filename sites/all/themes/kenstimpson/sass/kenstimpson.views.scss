@@ -1,0 +1,69 @@
+// Import external libraries.
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+@import "toolkit";
+
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+.view-calendar
+{
+	.views-row
+	{
+		border-top: 1px solid #E0E0E0;
+		border-bottom: 1px solid #E0E0E0;
+				margin-bottom: 5px;
+	}
+	.event_title
+	{
+		margin-left: 60px;
+		padding-top: 15px;
+		font-size: $smallerText;
+		@include clearfix;
+	}
+	.event_date_container
+	{
+		border: 1px solid #CACACA;
+		text-align: center;
+		width: 50px;
+		float: left;
+
+		
+		.event_month
+		{
+			background-color: #505050;
+			color: #fff;
+			font-size: .8em;
+		}
+		.event_date
+		{
+			font-size: 1.3em;
+			background-color: #EDEDED;
+		}
+		.event_day
+		{
+			font-size: .7em;
+			background-color: #AAAAAA;
+		}
+	}
+	.view-footer
+	{
+		font-size: $smallText;
+		text-align: right;
+	}
+}
