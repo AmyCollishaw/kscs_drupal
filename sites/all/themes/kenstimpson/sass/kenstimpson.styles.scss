@@ -20,7 +20,14 @@
 @import "abstractions/**/*";
 @import "base/**/*";
 @import "components/**/*";
-
+.ks_content
+{
+	h1
+	{
+		font-size: $h1;
+		font-weight: 100;
+	}
+}
 a:link
 {
 	color: #2F29BB;
@@ -47,6 +54,89 @@ a:link
 			border-bottom: 1px solid $ksBlue;
 		}
 	}
+
+.main_ks_body
+{
+	margin: 0 auto;
+	z-index: 100;
+	position: relative;
+	font-family: $mainFontFamily;
+	font-size: $mainFontSize;
+	color: $ksBlue;
+
+	@include breakpoint($tab, true)
+	{
+		width: $tab;
+	}
+	@include breakpoint($desk, true)
+	{
+		width: $desk;
+		box-shadow: 5px 5px 10px 5px #ccc;
+		border-bottom-right-radius: 15px;
+		background-color: #fff;
+		border-top: 1px solid #ccc;
+	}
+	@include clearfix;
+	overflow: hidden;
+}
+
+.ks_header
+{
+		background-color: #FFF;
+		text-align: right;
+}
+.ks_banner
+{
+	visibility: hidden;
+	display: none;
+	background-color: #FFF;
+	@include breakpoint($tab, true)
+	{
+		visibility: hidden;	
+		display: none;
+	}
+	@include breakpoint($desk, true)
+	{
+		visibility: visible;
+		display: block;
+		position: relative;
+		height: 320px;
+	}
+	@include clearfix;
+}
+.ks_menu
+{
+	position: relative;
+}
+
+.ks_banner .ks_logo
+{
+	a:link
+	{
+		text-decoration:  none;
+		border: none;
+	}
+	@include breakpoint($desk, true)
+	{
+		position: absolute;
+		top: 103px;
+		left: 15px;	
+		z-index: 200;
+	}
+	
+}
+.ks_banner .ks_banner_image
+{
+	@include breakpoint($desk, true)
+	{
+		position: absolute;
+		top: 0px;
+		right: 0px;	
+		z-index: 49;
+		width: 866px;
+		height: 320px;
+	}
+}
 
 .main_ks_body .ks_menu
 {

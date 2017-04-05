@@ -10,80 +10,7 @@
 // Globbing from within sub-folders only works with relative paths.
 @import "../../variables/**/*";
 
-.main_ks_body
-{
-	margin: 0 auto;
-	z-index: 100;
-	position: relative;
-	font-family: $mainFontFamily;
-	font-size: $mainFontSize;
 
-	@include breakpoint($tab, true)
-	{
-		width: $tab;
-	}
-	@include breakpoint($desk, true)
-	{
-		width: $desk;
-		box-shadow: 5px 5px 5px 5px grey;
-		background-color: #fff;
-	}
-	@include clearfix;
-	overflow: hidden;
-}
-
-.ks_header
-{
-		background-color: #FFF;
-		text-align: right;
-}
-.ks_banner
-{
-	visibility: hidden;
-	display: none;
-	background-color: #FFF;
-	@include breakpoint($tab, true)
-	{
-		visibility: hidden;	
-		display: none;
-	}
-	@include breakpoint($desk, true)
-	{
-		visibility: visible;
-		display: block;
-		position: relative;
-		height: 320px;
-	}
-	@include clearfix;
-}
-.ks_menu
-{
-	position: relative;
-}
-
-.ks_banner .ks_logo
-{
-	@include breakpoint($desk, true)
-	{
-		position: absolute;
-		top: 103px;
-		left: 15px;	
-		z-index: 200;
-	}
-	
-}
-.ks_banner .ks_banner_image
-{
-	@include breakpoint($desk, true)
-	{
-		position: absolute;
-		top: 0px;
-		right: 0px;	
-		z-index: 49;
-		width: 866px;
-		height: 320px;
-	}
-}
 
 @include breakpoint($tab, true)
 {
@@ -94,12 +21,15 @@
 	}
 	.ks_centre
 	{
-		@include grid-span(5, 4);
+		@include grid-span(9, 4);
 		border: 0px solid yellow;
+		font-size: $smallerText;
+		line-height: 1.5em;
+		@include clearfix;
 	}
 	.ks_second_sidebar
 	{
-		@include grid-span(4, 9);	
+		width: 100%;	
 		@include clearfix;
 		border: 0px solid green;
 	}
@@ -113,10 +43,16 @@
 	@include clearfix;
 	margin-top: 20px;
 	font-size: $smallerText;
-	line-height: 1.2em;
-	a:link
+	line-height: 1.5em;
+	a
 	{
 		color: #727272;
+	}
+	.menu .leaf
+	{
+		list-style-type:  none;
+		list-style-image:  none;
+		list-style: none;
 	}
 }
 @include breakpoint($desk, true)
@@ -164,9 +100,13 @@
 		.block__title
 		{
 			font-size: $blockTitleSize;
+			font-weight: 100;
+			
 			padding-top: 0px;
 			padding-bottom: 5px;
-			margin: 0px;
+			margin-top: 0px;
+			margin-bottom: 10px;
+			border-bottom: 1px solid #eee;
 		}
 	}
 	

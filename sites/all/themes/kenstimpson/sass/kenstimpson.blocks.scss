@@ -1,0 +1,43 @@
+/*******************************************************************************
+ * kenstimpson.blocks.scss
+ *
+ * Style overrides for contrib blocks
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+// Globbing from within sub-folders only works with relative paths.
+@import "variables/**/*";
+@import "abstractions/**/*";
+@import "base/**/*";
+@import "components/**/*";
+
+//Facebook Pull Block
+
+.facebook-feed 
+{
+	.item
+	{
+		border: 1px solid #eee;
+		padding: 5px;
+		border-bottom-right-radius: 15px;
+		border-top-left-radius: 15px;
+		box-shadow: 5px 5px 10px 1px #ddd;
+	}
+	.facebook-feed-picture, .facebook-feed-from
+	{
+		display: none;
+	}
+	.facebook-feed-message img
+	{
+		width: 100%;
+		@include clearfix;
+	}
+	.facebook-feed-time
+	{
+		text-align: right;
+		font-size: $smallText;
+	}
+	
+}

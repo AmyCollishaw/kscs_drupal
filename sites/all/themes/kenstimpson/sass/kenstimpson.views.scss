@@ -27,7 +27,9 @@
 	{
 		border-top: 1px solid #E0E0E0;
 		border-bottom: 1px solid #E0E0E0;
-				margin-bottom: 5px;
+		margin-bottom: 5px;
+
+		border-top-left-radius: 15px;
 	}
 	.event_title
 	{
@@ -42,23 +44,27 @@
 		text-align: center;
 		width: 50px;
 		float: left;
-
+		border-bottom-right-radius: 15px;
+		border-top-left-radius: 15px;
+		box-shadow: 1px 1px 5px 1px #ddd;
 		
 		.event_month
 		{
-			background-color: #505050;
+			background-color:#073E5F;
 			color: #fff;
 			font-size: .8em;
+			border-top-left-radius: 15px;
 		}
 		.event_date
 		{
 			font-size: 1.3em;
-			background-color: #EDEDED;
+			background-color: #E6F4FD;
 		}
 		.event_day
 		{
 			font-size: .7em;
-			background-color: #AAAAAA;
+			background-color: #9CB2BF;
+			border-bottom-right-radius: 15px;
 		}
 	}
 	.view-footer

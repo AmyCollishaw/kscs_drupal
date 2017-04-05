@@ -14,6 +14,7 @@ stylesheets[all][] = css/kenstimpson.styles.css
 stylesheets[all][] = css/kenstimpson.no-query.css
 stylesheets[all][] = css/kenstimpson.background.css
 stylesheets[all][] = css/kenstimpson.views.css
+stylesheets[all][] = css/kenstimpson.blocks.css
 
 ; ========================================
 ; Scripts

@@ -7,8 +7,9 @@ img, media {
 .view-calendar .views-row {
   border-top: 1px solid #E0E0E0;
   border-bottom: 1px solid #E0E0E0;
-  margin-bottom: 5px; }
-/* line 32, ../sass/kenstimpson.views.scss */
+  margin-bottom: 5px;
+  border-top-left-radius: 15px; }
+/* line 34, ../sass/kenstimpson.views.scss */
 .view-calendar .event_title {
   margin-left: 60px;
   padding-top: 15px;
@@ -18,26 +19,31 @@ img, media {
     content: "";
     display: table;
     clear: both; }
-/* line 39, ../sass/kenstimpson.views.scss */
+/* line 41, ../sass/kenstimpson.views.scss */
 .view-calendar .event_date_container {
   border: 1px solid #CACACA;
   text-align: center;
   width: 50px;
-  float: left; }
-  /* line 47, ../sass/kenstimpson.views.scss */
+  float: left;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 1px 1px 5px 1px #ddd; }
+  /* line 51, ../sass/kenstimpson.views.scss */
   .view-calendar .event_date_container .event_month {
-    background-color: #505050;
+    background-color: #073E5F;
     color: #fff;
-    font-size: .8em; }
-  /* line 53, ../sass/kenstimpson.views.scss */
+    font-size: .8em;
+    border-top-left-radius: 15px; }
+  /* line 58, ../sass/kenstimpson.views.scss */
   .view-calendar .event_date_container .event_date {
     font-size: 1.3em;
-    background-color: #EDEDED; }
-  /* line 58, ../sass/kenstimpson.views.scss */
+    background-color: #E6F4FD; }
+  /* line 63, ../sass/kenstimpson.views.scss */
   .view-calendar .event_date_container .event_day {
     font-size: .7em;
-    background-color: #AAAAAA; }
-/* line 64, ../sass/kenstimpson.views.scss */
+    background-color: #9CB2BF;
+    border-bottom-right-radius: 15px; }
+/* line 70, ../sass/kenstimpson.views.scss */
 .view-calendar .view-footer {
   font-size: 0.7em;
   text-align: right; }
