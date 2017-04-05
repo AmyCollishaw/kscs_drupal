@@ -1,0 +1,112 @@
+/*******************************************************************************
+ * front.layout.scss
+ *
+ * Styles for the Main layout.
+ ******************************************************************************/
+@import "compass";
+@import "breakpoint";
+@import "singularitygs";
+
+// Globbing from within sub-folders only works with relative paths.
+@import "../../variables/**/*";
+
+
+
+@include breakpoint($tab, true)
+{
+	.ks_first_sidebar
+	{
+		@include grid-span(3,1);
+		border: 0px solid red;
+	}
+	.ks_centre
+	{
+		@include grid-span(5, 4);
+		border: 0px solid yellow;
+		font-size: $smallerText;
+		line-height: 1.5em;
+	}
+	.ks_second_sidebar
+	{
+		@include grid-span(4, 9);	
+		@include clearfix;
+		border: 0px solid green;
+	}
+}
+
+.ks_bottom
+{
+	background-color: #163251;
+	color: #727272;
+	width: 100%;
+	@include clearfix;
+	margin-top: 20px;
+	font-size: $smallerText;
+	line-height: 1.5em;
+	a
+	{
+		color: #727272;
+	}
+	.menu .leaf
+	{
+		list-style-type:  none;
+		list-style-image:  none;
+		list-style: none;
+	}
+}
+@include breakpoint($desk, true)
+{
+	.ks_bottom_container
+	{
+		width: $desk;
+		@include clearfix;
+		margin: auto;
+	}
+	.ks_bottom_first
+	{
+		@include grid-span(4,1);
+		border: 0px solid red;
+	}
+	.ks_bottom_centre
+	{
+		@include grid-span(4, 5);
+		border: 0px solid yellow;
+	}
+	.ks_bottom_second
+	{
+		@include grid-span(4, 9);	
+		@include clearfix;
+		border: 0px solid green;
+	}
+}
+
+.ks_content .block
+{
+	/*mobile view*/
+	color: $ksBlue;
+	
+	/*tablet view*/
+	@include breakpoint($tab, true)
+	{
+		
+	}
+	
+	/*desktop view*/
+	@include breakpoint($desk, true)
+	{
+		padding: 5px;
+		font-size: $mainFontSize;
+		.block__title
+		{
+			font-size: $blockTitleSize;
+			font-weight: 100;
+			
+			padding-top: 0px;
+			padding-bottom: 5px;
+			margin-top: 0px;
+			margin-bottom: 10px;
+			border-bottom: 1px solid #eee;
+		}
+	}
+	
+}

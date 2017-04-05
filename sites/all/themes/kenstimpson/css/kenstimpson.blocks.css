@@ -1,0 +1,31 @@
+/*******************************************************************************
+ * kenstimpson.blocks.scss
+ *
+ * Style overrides for contrib blocks
+ ******************************************************************************/
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 20, ../sass/kenstimpson.blocks.scss */
+.facebook-feed .item {
+  border: 1px solid #eee;
+  padding: 5px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 5px 5px 10px 1px #ddd; }
+/* line 28, ../sass/kenstimpson.blocks.scss */
+.facebook-feed .facebook-feed-picture, .facebook-feed .facebook-feed-from {
+  display: none; }
+/* line 32, ../sass/kenstimpson.blocks.scss */
+.facebook-feed .facebook-feed-message img {
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1; }
+/* line 37, ../sass/kenstimpson.blocks.scss */
+.facebook-feed .facebook-feed-time {
+  text-align: right;
+  font-size: 0.7em; }
+
+/*# sourceMappingURL=kenstimpson.blocks.css.map */
