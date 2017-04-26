@@ -8,9 +8,13 @@
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-<div id="background_left_top_bars">&nbsp;</div>
-<div id="background_right_top_bars">&nbsp;</div>
-<div id="background_house_text">&nbsp;</div>
+<div id="background_left_top_bars"></div>
+<div id="background_right_top_bars"></div>
+<div id="background_house_text"></div>
+
+<?php if($page['quote_1']) { ?>
+	<div id="background_quotes_1"><?php echo render($page['quote_1']); ?></div>
+<?php } ?>
 
 <div class="main_ks_body">
 	<div id="background_top_vertical_bar">&nbsp;</div>
@@ -25,7 +29,7 @@
 	
 	<div class="ks_banner">
 		<?php if($page['logo']) { ?>
-		<div class="ks_logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><?php echo "<img src=\"$logo\" />"; ?></a></div>
+		<div class="ks_logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><?php echo "<img src=\"$logo\" />"; echo render($page['logo']);?></a></div>
 		<?php } ?>
 		<?php if($page['banner_image']) { ?>
 			<div class="ks_banner_image"><?php echo render($page['banner_image']); ?></div>

@@ -8,9 +8,42 @@
 img, media {
   max-width: 100%; }
 
+/* line 18, ../sass/kenstimpson.background.scss */
+#background_left_top_bars {
+  display: none; }
+
+/* line 23, ../sass/kenstimpson.background.scss */
+#background_right_top_bars {
+  display: none; }
+
+/* line 27, ../sass/kenstimpson.background.scss */
+#background_left_vertical_bars {
+  display: none; }
+
+/* line 31, ../sass/kenstimpson.background.scss */
+#background_top_vertical_bar {
+  display: none; }
+
+/* line 35, ../sass/kenstimpson.background.scss */
+.ks_menu {
+  background-image: none; }
+
+/* line 39, ../sass/kenstimpson.background.scss */
+#menu_left_vertical_bar {
+  display: none; }
+
+/* line 43, ../sass/kenstimpson.background.scss */
+#background_house_text {
+  display: none; }
+
+/* line 47, ../sass/kenstimpson.background.scss */
+.ks_content {
+  background-image: none; }
+
 @media (min-width: 70em) {
-  /* line 18, ../sass/kenstimpson.background.scss */
+  /* line 58, ../sass/kenstimpson.background.scss */
   #background_left_top_bars {
+    display: flex;
     z-index: -100;
     width: 50%;
     height: 427px;
@@ -20,8 +53,9 @@ img, media {
     background-image: url("../images/top_left_horizontal_bars.png");
     background-repeat: repeat-x; }
 
-  /* line 30, ../sass/kenstimpson.background.scss */
+  /* line 71, ../sass/kenstimpson.background.scss */
   #background_right_top_bars {
+    display: flex;
     z-index: -100;
     width: 50%;
     height: 427px;
@@ -31,7 +65,7 @@ img, media {
     background-image: url("../images/top_right_horizontal_bars.png");
     background-repeat: repeat-x; }
 
-  /* line 41, ../sass/kenstimpson.background.scss */
+  /* line 83, ../sass/kenstimpson.background.scss */
   #background_left_vertical_bars {
     width: 283px;
     height: 362px;
@@ -44,8 +78,9 @@ img, media {
     overflow: visible;
     display: none; }
 
-  /* line 54, ../sass/kenstimpson.background.scss */
+  /* line 97, ../sass/kenstimpson.background.scss */
   #background_top_vertical_bar {
+    display: flex;
     width: 14px;
     height: 400px;
     position: absolute;
@@ -55,14 +90,15 @@ img, media {
     background-image: url("../images/top_vertical_bar.png");
     background-repeat: repeat-y; }
 
-  /* line 65, ../sass/kenstimpson.background.scss */
+  /* line 109, ../sass/kenstimpson.background.scss */
   .ks_menu {
     background-image: url("../images/header_horizontal_bar.png");
     background-repeat: repeat-x;
     background-position: bottom; }
 
-  /* line 71, ../sass/kenstimpson.background.scss */
+  /* line 115, ../sass/kenstimpson.background.scss */
   #menu_left_vertical_bar {
+    display: flex;
     background-image: url("../images/content_left_vertical_bar.png");
     background-repeat: repeat-y;
     width: 13px;
@@ -73,8 +109,9 @@ img, media {
     overflow: visible;
     z-index: 200; }
 
-  /* line 83, ../sass/kenstimpson.background.scss */
+  /* line 128, ../sass/kenstimpson.background.scss */
   #background_house_text {
+    display: flex;
     background-image: url("../images/house_background.png");
     background-repeat: repeat-x;
     position: absolute;
@@ -82,15 +119,38 @@ img, media {
     height: 400px;
     z-index: -150;
     left: 0px;
-    top: 50px; }
+    top: 60px; }
 
-  /* line 94, ../sass/kenstimpson.background.scss */
+  /* line 140, ../sass/kenstimpson.background.scss */
   .ks_content {
     background-image: url("../images/menu_horizontal_bar.png");
     background-repeat: repeat-x;
     padding-top: 20px;
     padding-left: 10px;
     overflow: hidden;
-    *zoom: 1; } }
+    *zoom: 1; }
+
+  /* line 150, ../sass/kenstimpson.background.scss */
+  #background_quotes_1 {
+    height: 200px;
+    width: 300px;
+    padding: 20px 10px 5px 30px;
+    position: absolute;
+    border: 0px solid red;
+    top: 500px;
+    left: 20px;
+    overflow: hidden;
+    background-image: url("../images/side_quote_background.png");
+    background-repeat: no-repeat; }
+    /* line 163, ../sass/kenstimpson.background.scss */
+    #background_quotes_1 .views-field-field-quote-text {
+      color: #aaa;
+      font-size: 1.1em;
+      line-height: 1.5em; }
+    /* line 169, ../sass/kenstimpson.background.scss */
+    #background_quotes_1 .views-field-field-quote-author {
+      color: #666;
+      font-size: 0.9em;
+      text-align: right; } }
 
 /*# sourceMappingURL=kenstimpson.background.css.map */

@@ -81,11 +81,24 @@ a:hover {
   left: 15px;
   z-index: 200; }
   /* line 114, ../sass/kenstimpson.styles.scss */
+  .ks_banner .ks_logo a {
+    color: #163251; }
+  /* line 118, ../sass/kenstimpson.styles.scss */
   .ks_banner .ks_logo a:link {
     text-decoration: none;
-    border: none; }
+    border: none;
+    color: #163251; }
+  /* line 132, ../sass/kenstimpson.styles.scss */
+  .ks_banner .ks_logo .logo_name {
+    background-image: url("../images/logo_text_background.png"); }
+    /* line 134, ../sass/kenstimpson.styles.scss */
+    .ks_banner .ks_logo .logo_name .logo_kenstimpson {
+      font-size: 30px; }
+    /* line 138, ../sass/kenstimpson.styles.scss */
+    .ks_banner .ks_logo .logo_name .logo_comschool {
+      font-size: 22px; }
 
-/* line 128, ../sass/kenstimpson.styles.scss */
+/* line 149, ../sass/kenstimpson.styles.scss */
 .ks_banner .ks_banner_image {
   position: absolute;
   top: 0px;
@@ -93,11 +106,24 @@ a:hover {
   z-index: 49;
   width: 866px;
   height: 320px; }
+  /* line 160, ../sass/kenstimpson.styles.scss */
+  .ks_banner .ks_banner_image .banner_quote {
+    width: 200px;
+    height: 320px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 10px;
+    color: #DBDBDB;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-weight: 100;
+    background-image: url("../images/quote_background.png"); }
 
-/* line 141, ../sass/kenstimpson.styles.scss */
+/* line 177, ../sass/kenstimpson.styles.scss */
 .main_ks_body .ks_menu {
   /*Mobile view*/
-  width: 97%;
+  width: 100%;
   text-align: center;
   background-color: #163251;
   font-size: 1.3em;
@@ -105,6 +131,7 @@ a:hover {
   color: #163251;
   background-color: #FFF;
   /*desktop view*/
+  width: 97%;
   color: #163251;
   margin-top: 0px;
   margin-right: 20px;
@@ -114,33 +141,35 @@ a:hover {
     content: "";
     display: table;
     clear: both; }
-  /* line 149, ../sass/kenstimpson.styles.scss */
+  /* line 185, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li {
     list-style: none;
     display: block;
     padding-bottom: 5px;
     text-align: center; }
-  /* line 156, ../sass/kenstimpson.styles.scss */
+  /* line 192, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a {
     text-decoration: none;
+    border: none;
     color: #FFF; }
-  /* line 161, ../sass/kenstimpson.styles.scss */
+  /* line 198, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a:hover {
-    text-decoration: underline; }
-  /* line 170, ../sass/kenstimpson.styles.scss */
+    text-decoration: none;
+    border: none; }
+  /* line 208, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li {
     display: inline-block;
     list-style: none; }
-  /* line 175, ../sass/kenstimpson.styles.scss */
+  /* line 213, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a {
     color: #163251; }
-  /* line 187, ../sass/kenstimpson.styles.scss */
+  /* line 226, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li {
     display: inline-block;
     list-style: none;
     width: 12.5%;
     text-align: center; }
-  /* line 194, ../sass/kenstimpson.styles.scss */
+  /* line 233, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a {
     color: #163251; }
 
