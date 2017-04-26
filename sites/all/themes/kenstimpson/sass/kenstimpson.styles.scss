@@ -111,10 +111,15 @@ a:link
 
 .ks_banner .ks_logo
 {
+	a
+	{
+		color: $ksBlue;
+	}
 	a:link
 	{
 		text-decoration:  none;
 		border: none;
+		color: $ksBlue;
 	}
 	@include breakpoint($desk, true)
 	{
@@ -123,6 +128,22 @@ a:link
 		left: 15px;	
 		z-index: 200;
 	}
+	
+	.logo_name
+	{
+		.logo_kenstimpson
+		{
+			font-size: 30px;
+		}
+		.logo_comschool
+		{
+			font-size: 22px;
+		}
+		background-image: url('../images/logo_text_background.png');
+		
+		
+	}
+	
 	
 }
 .ks_banner .ks_banner_image
@@ -135,13 +156,28 @@ a:link
 		z-index: 49;
 		width: 866px;
 		height: 320px;
+		
+		.banner_quote
+		{
+			width: 200px;
+			height: 320px;
+			position: absolute;
+			top: 0px;
+			right:0px;
+			padding: 10px;
+			color: #DBDBDB;
+			font-size: 1.2em;
+			line-height: 1.5em;
+			font-weight:  100;
+			background-image: url('../images/quote_background.png');
+		}
 	}
 }
 
 .main_ks_body .ks_menu
 {
 	/*Mobile view*/
-	width: 97%;
+	width: 100%;
 	text-align: center;
 	background-color: $ksBlue;
 	@include clearfix;
@@ -156,11 +192,13 @@ a:link
 	li a
 	{
 		text-decoration: none;
+		border: none;
 		color: #FFF;
 	}
 	li a:hover
 	{
-		text-decoration: underline;
+		text-decoration: none;
+		border: none;
 	}
 	/*tab view*/
 	@include breakpoint($tab, true)
@@ -180,6 +218,7 @@ a:link
 	/*desktop view*/
 	@include breakpoint($desk, true)
 	{
+		width: 97%;
 		color: $ksBlue;
 		margin-top: 0px;
 		margin-right: 20px;

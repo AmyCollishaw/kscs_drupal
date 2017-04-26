@@ -13,10 +13,51 @@
 @import "base/**/*";
 @import "components/**/*";
 
+//mobile view
+
+#background_left_top_bars
+	{
+		display: none;
+	}
+	
+	#background_right_top_bars
+	{
+		display: none;
+	}
+	#background_left_vertical_bars
+	{
+		display: none;
+	}
+	#background_top_vertical_bar
+	{
+		display: none;
+	}
+	.ks_menu
+	{
+		background-image: none;
+	}
+	#menu_left_vertical_bar
+	{
+		display: none;
+	}
+	#background_house_text
+	{
+		display: none;
+	}
+	.ks_content
+	{
+		background-image: none;
+	}
+
+
+
+
+//desktop view
 @include breakpoint($desk, true)
 {
-	#background_left_top_bars
+	#background_left_top_bars /*green blue and orange bars from left*/
 	{
+		display: flex;
 		z-index: -100;
 		width: 50%;
 		height: 427px;
@@ -27,8 +68,9 @@
 		background-repeat: repeat-x;
 	}
 	
-	#background_right_top_bars
+	#background_right_top_bars /*orange bar from right*/
 	{
+		display: flex;
 		z-index: -100;
 		width: 50%;
 		height: 427px;
@@ -40,6 +82,7 @@
 	}
 	#background_left_vertical_bars
 	{
+		
 		width:283px;
 		height: 362px;
 		position: absolute;
@@ -51,8 +94,9 @@
 		overflow: visible;
 		display: none;
 	}
-	#background_top_vertical_bar
+	#background_top_vertical_bar /*red bar behind logo*/
 	{
+		display: flex;
 		width: 14px;
 		height: 400px;
 		position: absolute;
@@ -68,8 +112,9 @@
 		background-repeat: repeat-x;
 		background-position: bottom;
 	}
-	#menu_left_vertical_bar
+	#menu_left_vertical_bar /*blue bar down left of logo/content */
 	{
+		display: flex;
 		background-image: url('../images/content_left_vertical_bar.png');
 		background-repeat: repeat-y;
 		width: 13px;
@@ -80,8 +125,9 @@
 		overflow: visible;
 		z-index: 200;
 	}
-	#background_house_text
+	#background_house_text/*text accross top*/ 
 	{
+		display: flex;
 		background-image: url('../images/house_background.png');
 		background-repeat: repeat-x;
 		position: absolute;
@@ -89,7 +135,7 @@
 		height: 400px;
 		z-index: -150;
 		left: 0px;
-		top: 50px;
+		top: 60px;
 	}
 	.ks_content
 	{
@@ -99,6 +145,33 @@
 		padding-top: 20px;
 		padding-left: 10px;
 		@include clearfix;
+	}
+	
+	#background_quotes_1
+	{
+		height: 200px;
+		width: 300px;
+		padding: 20px 10px 5px 30px;
+		position: absolute;
+		border: 0px solid red;
+		top: 500px;
+		left: 20px;
+		overflow: hidden;
+		background-image: url('../images/side_quote_background.png');
+		background-repeat: no-repeat;
+		
+		.views-field-field-quote-text
+		{
+			color: $quoteMainColour;
+			font-size: $quoteMainSize;
+			line-height: 1.5em;
+		}
+		.views-field-field-quote-author
+		{
+			color: $quoteAuthorColour;
+			font-size: $quoteAuthorSize;
+			text-align: right;
+		}
 	}
 
 }

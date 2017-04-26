@@ -18,6 +18,7 @@ regions[bottom_first] = Bottom First Sidebar
 regions[bottom_centre] = Bottom Centre
 regions[bottom_second] = Bottom Second Sidebar
 regions[footer] = Footer
+regions[quote_1] = Quote 1
 
 ; Stylesheets
 stylesheets[all][] = css/layouts/front/front.layout.css

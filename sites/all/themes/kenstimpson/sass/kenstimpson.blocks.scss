@@ -33,11 +33,17 @@
 	{
 		width: 100%;
 		@include clearfix;
+		a:hover
+		{
+			border: none;
+			text-decoration: none;
+		}
 	}
 	.facebook-feed-time
 	{
 		text-align: right;
 		font-size: $smallText;
 	}
+	
 	
 }
