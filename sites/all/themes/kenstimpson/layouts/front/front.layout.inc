@@ -23,3 +23,7 @@ regions[quote_1] = Quote 1
 ; Stylesheets
 stylesheets[all][] = css/layouts/front/front.layout.css
 stylesheets[all][] = css/layouts/front/front.layout.no-query.css
+
+; Plugins
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles

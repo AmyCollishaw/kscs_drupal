@@ -124,7 +124,7 @@ a:link
 	@include breakpoint($desk, true)
 	{
 		position: absolute;
-		top: 103px;
+		top: 43px;
 		left: 15px;	
 		z-index: 200;
 	}
@@ -174,6 +174,10 @@ a:link
 	}
 }
 
+.menu
+{
+	text-align: center;
+}
 .main_ks_body .ks_menu
 {
 	/*Mobile view*/

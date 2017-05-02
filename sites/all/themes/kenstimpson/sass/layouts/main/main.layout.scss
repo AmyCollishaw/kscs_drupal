@@ -22,9 +22,11 @@
 	.ks_centre
 	{
 		@include grid-span(9, 4);
+
 		border: 0px solid yellow;
 		font-size: $smallerText;
 		line-height: 1.5em;
+		padding-left: 20px;
 		@include clearfix;
 	}
 	.ks_second_sidebar

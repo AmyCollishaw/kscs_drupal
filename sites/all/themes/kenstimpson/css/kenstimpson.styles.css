@@ -98,7 +98,7 @@ a:link {
   /* line 112, ../sass/kenstimpson.styles.scss */
   .ks_banner .ks_logo {
     position: absolute;
-    top: 103px;
+    top: 43px;
     left: 15px;
     z-index: 200; } }
 /* line 132, ../sass/kenstimpson.styles.scss */
@@ -135,6 +135,10 @@ a:link {
       background-image: url("../images/quote_background.png"); } }
 
 /* line 177, ../sass/kenstimpson.styles.scss */
+.menu {
+  text-align: center; }
+
+/* line 181, ../sass/kenstimpson.styles.scss */
 .main_ks_body .ks_menu {
   /*Mobile view*/
   width: 100%;
@@ -148,48 +152,48 @@ a:link {
     content: "";
     display: table;
     clear: both; }
-  /* line 185, ../sass/kenstimpson.styles.scss */
+  /* line 189, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li {
     list-style: none;
     display: block;
     padding-bottom: 5px;
     text-align: center; }
-  /* line 192, ../sass/kenstimpson.styles.scss */
+  /* line 196, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a {
     text-decoration: none;
     border: none;
     color: #FFF; }
-  /* line 198, ../sass/kenstimpson.styles.scss */
+  /* line 202, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a:hover {
     text-decoration: none;
     border: none; }
   @media (min-width: 44em) {
-    /* line 177, ../sass/kenstimpson.styles.scss */
+    /* line 181, ../sass/kenstimpson.styles.scss */
     .main_ks_body .ks_menu {
       color: #163251;
       background-color: #FFF; }
-      /* line 208, ../sass/kenstimpson.styles.scss */
+      /* line 212, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li {
         display: inline-block;
         list-style: none; }
-      /* line 213, ../sass/kenstimpson.styles.scss */
+      /* line 217, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li a {
         color: #163251; } }
   @media (min-width: 70em) {
-    /* line 177, ../sass/kenstimpson.styles.scss */
+    /* line 181, ../sass/kenstimpson.styles.scss */
     .main_ks_body .ks_menu {
       width: 97%;
       color: #163251;
       margin-top: 0px;
       margin-right: 20px;
       background-color: #FFF; }
-      /* line 226, ../sass/kenstimpson.styles.scss */
+      /* line 230, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li {
         display: inline-block;
         list-style: none;
         width: 12.5%;
         text-align: center; }
-      /* line 233, ../sass/kenstimpson.styles.scss */
+      /* line 237, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li a {
         color: #163251; } }
 

@@ -73,3 +73,31 @@
 		text-align: right;
 	}
 }
+
+.ks_centre .view-curriculum
+{
+	clear: both;
+	border: 1px solid #ccc;
+	border-bottom-right-radius: 15px;
+	padding: 10px;
+	margin-bottom: 10px;
+	
+	.views-row
+	{
+		margin-bottom: 20px;
+	}
+	
+	.views-field-field-curr-topic
+	{
+		font-size: $h2;
+		font-weight: bold;
+	}
+	
+	.views-field-field-curr-topic-desc .views-label,
+	.views-field-field-curr-topic-assess .views-label,
+	.views-field-field-curr-topic-homework .views-label,
+	{
+		font-size: $h3;
+		font-weight: bold;
+	}
+}

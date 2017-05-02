@@ -48,4 +48,25 @@ img, media {
   font-size: 0.7em;
   text-align: right; }
 
+/* line 77, ../sass/kenstimpson.views.scss */
+.ks_centre .view-curriculum {
+  clear: both;
+  border: 1px solid #ccc;
+  border-bottom-right-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px; }
+  /* line 85, ../sass/kenstimpson.views.scss */
+  .ks_centre .view-curriculum .views-row {
+    margin-bottom: 20px; }
+  /* line 90, ../sass/kenstimpson.views.scss */
+  .ks_centre .view-curriculum .views-field-field-curr-topic {
+    font-size: 1.2em;
+    font-weight: bold; }
+  /* line 96, ../sass/kenstimpson.views.scss */
+  .ks_centre .view-curriculum .views-field-field-curr-topic-desc .views-label,
+  .ks_centre .view-curriculum .views-field-field-curr-topic-assess .views-label,
+  .ks_centre .view-curriculum .views-field-field-curr-topic-homework .views-label {
+    font-size: 1em;
+    font-weight: bold; }
+
 /*# sourceMappingURL=kenstimpson.views.css.map */

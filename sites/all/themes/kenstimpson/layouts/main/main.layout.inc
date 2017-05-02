@@ -22,3 +22,7 @@ regions[footer] = Footer
 ; Stylesheets
 stylesheets[all][] = css/layouts/main/main.layout.css
 stylesheets[all][] = css/layouts/main/main.layout.no-query.css
+
+; Plugins
+plugins[panels][layouts] = panels/layouts
+plugins[panels][styles] = panels/styles
