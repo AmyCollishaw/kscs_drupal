@@ -12,6 +12,10 @@
 <div id="background_right_top_bars">&nbsp;</div>
 <div id="background_house_text">&nbsp;</div>
 
+<?php if($page['quote_1']) { ?>
+	<div id="background_quotes_1"><?php echo render($page['quote_1']); ?></div>
+<?php } ?>
+
 <div class="main_ks_body">
 	<div id="background_top_vertical_bar">&nbsp;</div>
 	<div id="menu_left_vertical_bar">&nbsp;</div>
