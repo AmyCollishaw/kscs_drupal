@@ -1,0 +1,96 @@
+/*******************************************************************************
+ * singlecolumn.layout.scss
+ *
+ * Styles for the Single Column layout.
+ ******************************************************************************/
+@media (min-width: 44em) {
+  /* line 18, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_centre {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    border: 0px solid yellow;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    padding-left: 20px;
+    overflow: hidden;
+    *zoom: 1; } }
+/* line 31, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+.ks_bottom {
+  background-color: #163251;
+  color: #727272;
+  width: 100%;
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: 20px;
+  font-size: 0.9em;
+  line-height: 1.5em; }
+  /* line 40, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_bottom a {
+    color: #727272; }
+  /* line 44, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_bottom .menu .leaf {
+    list-style-type: none;
+    list-style-image: none;
+    list-style: none; }
+
+@media (min-width: 70em) {
+  /* line 53, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_bottom_container {
+    width: 70em;
+    overflow: hidden;
+    *zoom: 1;
+    margin: auto; }
+
+  /* line 59, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_bottom_first {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    border: 0px solid red; }
+
+  /* line 64, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_bottom_centre {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 33.89831%;
+    clear: none;
+    border: 0px solid yellow; }
+
+  /* line 69, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_bottom_second {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    overflow: hidden;
+    *zoom: 1;
+    border: 0px solid green; } }
+/* line 77, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+.ks_content .block {
+  /*mobile view*/
+  color: #163251;
+  /*tablet view*/
+  /*desktop view*/ }
+  @media (min-width: 70em) {
+    /* line 77, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+    .ks_content .block {
+      padding: 5px;
+      font-size: 1em; }
+      /* line 93, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+      .ks_content .block .block__title {
+        font-size: 2em;
+        font-weight: 100;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #eee; } }
+
+/*# sourceMappingURL=singlecolumn.layout.css.map */

@@ -15,26 +15,25 @@
 
   /* line 22, ../../../sass/layouts/main - Copy/main.layout.scss */
   .ks_centre {
-    width: 40.67797%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 25.42373%;
-    clear: none;
-    border: 0px solid yellow;
-    font-size: 0.9em;
-    line-height: 1.5em; }
-
-  /* line 29, ../../../sass/layouts/main - Copy/main.layout.scss */
-  .ks_second_sidebar {
-    width: 32.20339%;
+    width: 74.57627%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
+    border: 0px solid yellow;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    padding-left: 20px;
+    overflow: hidden;
+    *zoom: 1; }
+
+  /* line 32, ../../../sass/layouts/main - Copy/main.layout.scss */
+  .ks_second_sidebar {
+    width: 100%;
     overflow: hidden;
     *zoom: 1;
     border: 0px solid green; } }
-/* line 37, ../../../sass/layouts/main - Copy/main.layout.scss */
+/* line 40, ../../../sass/layouts/main - Copy/main.layout.scss */
 .ks_bottom {
   background-color: #163251;
   color: #727272;
@@ -44,24 +43,24 @@
   margin-top: 20px;
   font-size: 0.9em;
   line-height: 1.5em; }
-  /* line 46, ../../../sass/layouts/main - Copy/main.layout.scss */
+  /* line 49, ../../../sass/layouts/main - Copy/main.layout.scss */
   .ks_bottom a {
     color: #727272; }
-  /* line 50, ../../../sass/layouts/main - Copy/main.layout.scss */
+  /* line 53, ../../../sass/layouts/main - Copy/main.layout.scss */
   .ks_bottom .menu .leaf {
     list-style-type: none;
     list-style-image: none;
     list-style: none; }
 
 @media (min-width: 70em) {
-  /* line 59, ../../../sass/layouts/main - Copy/main.layout.scss */
+  /* line 62, ../../../sass/layouts/main - Copy/main.layout.scss */
   .ks_bottom_container {
     width: 70em;
     overflow: hidden;
     *zoom: 1;
     margin: auto; }
 
-  /* line 65, ../../../sass/layouts/main - Copy/main.layout.scss */
+  /* line 68, ../../../sass/layouts/main - Copy/main.layout.scss */
   .ks_bottom_first {
     width: 32.20339%;
     float: left;
@@ -70,7 +69,7 @@
     clear: none;
     border: 0px solid red; }
 
-  /* line 70, ../../../sass/layouts/main - Copy/main.layout.scss */
+  /* line 73, ../../../sass/layouts/main - Copy/main.layout.scss */
   .ks_bottom_centre {
     width: 32.20339%;
     float: left;
@@ -79,7 +78,7 @@
     clear: none;
     border: 0px solid yellow; }
 
-  /* line 75, ../../../sass/layouts/main - Copy/main.layout.scss */
+  /* line 78, ../../../sass/layouts/main - Copy/main.layout.scss */
   .ks_bottom_second {
     width: 32.20339%;
     float: right;
@@ -89,18 +88,18 @@
     overflow: hidden;
     *zoom: 1;
     border: 0px solid green; } }
-/* line 83, ../../../sass/layouts/main - Copy/main.layout.scss */
+/* line 86, ../../../sass/layouts/main - Copy/main.layout.scss */
 .ks_content .block {
   /*mobile view*/
   color: #163251;
   /*tablet view*/
   /*desktop view*/ }
   @media (min-width: 70em) {
-    /* line 83, ../../../sass/layouts/main - Copy/main.layout.scss */
+    /* line 86, ../../../sass/layouts/main - Copy/main.layout.scss */
     .ks_content .block {
       padding: 5px;
       font-size: 1em; }
-      /* line 99, ../../../sass/layouts/main - Copy/main.layout.scss */
+      /* line 102, ../../../sass/layouts/main - Copy/main.layout.scss */
       .ks_content .block .block__title {
         font-size: 2em;
         font-weight: 100;
