@@ -17,12 +17,13 @@
 
 	.ks_centre
 	{
-		@include grid-span(12, 1);
+		@include grid-span(10, 2);
 
 		border: 0px solid yellow;
 		font-size: $smallerText;
 		line-height: 1.5em;
-		padding-left: 20px;
+		/*padding-left: 30px;
+		padding-right: 30px;*/
 		@include clearfix;
 	}
 
