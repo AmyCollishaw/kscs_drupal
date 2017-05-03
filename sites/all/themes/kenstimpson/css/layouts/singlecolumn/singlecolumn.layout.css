@@ -6,18 +6,19 @@
 @media (min-width: 44em) {
   /* line 18, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
   .ks_centre {
-    width: 100%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
+    width: 83.05085%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
     clear: none;
     border: 0px solid yellow;
     font-size: 0.9em;
     line-height: 1.5em;
-    padding-left: 20px;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
     overflow: hidden;
     *zoom: 1; } }
-/* line 31, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+/* line 32, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
 .ks_bottom {
   background-color: #163251;
   color: #727272;
@@ -27,24 +28,24 @@
   margin-top: 20px;
   font-size: 0.9em;
   line-height: 1.5em; }
-  /* line 40, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  /* line 41, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
   .ks_bottom a {
     color: #727272; }
-  /* line 44, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  /* line 45, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
   .ks_bottom .menu .leaf {
     list-style-type: none;
     list-style-image: none;
     list-style: none; }
 
 @media (min-width: 70em) {
-  /* line 53, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  /* line 54, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
   .ks_bottom_container {
     width: 70em;
     overflow: hidden;
     *zoom: 1;
     margin: auto; }
 
-  /* line 59, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  /* line 60, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
   .ks_bottom_first {
     width: 32.20339%;
     float: left;
@@ -53,7 +54,7 @@
     clear: none;
     border: 0px solid red; }
 
-  /* line 64, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  /* line 65, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
   .ks_bottom_centre {
     width: 32.20339%;
     float: left;
@@ -62,7 +63,7 @@
     clear: none;
     border: 0px solid yellow; }
 
-  /* line 69, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  /* line 70, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
   .ks_bottom_second {
     width: 32.20339%;
     float: right;
@@ -72,18 +73,18 @@
     overflow: hidden;
     *zoom: 1;
     border: 0px solid green; } }
-/* line 77, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+/* line 78, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
 .ks_content .block {
   /*mobile view*/
   color: #163251;
   /*tablet view*/
   /*desktop view*/ }
   @media (min-width: 70em) {
-    /* line 77, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+    /* line 78, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
     .ks_content .block {
       padding: 5px;
       font-size: 1em; }
-      /* line 93, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+      /* line 94, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
       .ks_content .block .block__title {
         font-size: 2em;
         font-weight: 100;

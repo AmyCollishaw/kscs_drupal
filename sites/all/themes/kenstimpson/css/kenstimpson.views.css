@@ -69,4 +69,57 @@ img, media {
     font-size: 1em;
     font-weight: bold; }
 
+/*POST 16 PAGE*/
+/* line 107, ../sass/kenstimpson.views.scss */
+.node-post-16-course-information img {
+  float: right; }
+
+/* line 111, ../sass/kenstimpson.views.scss */
+.view-p16-courses {
+  position: relative; }
+
+/* line 115, ../sass/kenstimpson.views.scss */
+.view-p16-courses .views-field-field-p16-course-image {
+  float: right; }
+
+/* line 119, ../sass/kenstimpson.views.scss */
+.p16-course-page-view .views-field-title {
+  position: relative;
+  font-size: 3em;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  top: 130px;
+  right: 0px;
+  line-height: normal;
+  background-image: url(images/breadcrumb_background.png);
+  background-repeat: repeat;
+  color: #163251;
+  padding-right: 5px;
+  z-index: 100; }
+
+/* line 135, ../sass/kenstimpson.views.scss */
+.p16-course-page-view .views-label-field-p16-level,
+.p16-course-page-view .views-label-field-p16-duration {
+  float: left; }
+
+/* line 142, ../sass/kenstimpson.views.scss */
+.p16-course-page-view .views-label-field-p16-level,
+.p16-course-page-view .views-label-field-p16-duration,
+.p16-course-page-view .views-label-field-p16-qualification,
+.p16-course-page-view .views-label-field-p16-entry-requirements {
+  font-weight: bold; }
+
+/* line 152, ../sass/kenstimpson.views.scss */
+.p16-course-page-view .views-label-field-p16-what-will-i-learn-,
+.p16-course-page-view .views-label-field-p16-further-course-content,
+.p16-course-page-view .views-label-field-p16-enrichment-activities,
+.p16-course-page-view .views-label-field-p16-what-can-i-do-next,
+.p16-course-page-view .views-label-field-p16-assessment,
+.p16-course-page-view .views-label-field-p16-who-can-do-it- {
+  font-weight: bold;
+  font-size: 1.7em;
+  color: #163251;
+  clear: both; }
+
 /*# sourceMappingURL=kenstimpson.views.css.map */

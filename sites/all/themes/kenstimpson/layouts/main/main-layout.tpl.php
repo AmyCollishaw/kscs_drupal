@@ -25,7 +25,7 @@
 	
 	<div class="ks_banner">
 		<?php if($page['logo']) { ?>
-		<div class="ks_logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><?php echo "<img src=\"$logo\" />"; ?></a></div>
+		<div class="ks_logo"><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><?php echo "<img src=\"$logo\" />"; echo render($page['logo']);?></a></div>
 		<?php } ?>
 		<?php if($page['banner_image']) { ?>
 			<div class="ks_banner_image"><?php echo render($page['banner_image']); ?></div>
@@ -44,15 +44,18 @@
 		<?php } ?>
 		<div class="ks_centre">
 			<?php print render($title_prefix); ?>
-			<?php if ($title): ?>
+			  <?php if ($title): ?>
 				<h1><?php print $title; ?></h1>
-			<?php endif; ?>
-			<?php print render($title_suffix); ?>
-			<?php if ($action_links): ?>
+			  <?php endif; ?>
+			  <?php print render($title_suffix); ?>
+			  <?php print $messages; ?>
+			  <?php print render($tabs); ?>
+			  <?php print render($page['help']); ?>
+			  <?php if ($action_links): ?>
 				<ul class="action-links"><?php print render($action_links); ?></ul>
-			<?php endif; ?>
-			<?php print render($page['content']); ?>
-			<?php print $feed_icons; ?>
+			  <?php endif; ?>
+			  <?php print render($page['content']); ?>
+			  <?php print $feed_icons; ?>
 		</div>
 		<?php if($page['sidebar_second']) { ?>
 			<div class="ks_second_sidebar"><?php echo render($page['sidebar_second']); ?></div>
