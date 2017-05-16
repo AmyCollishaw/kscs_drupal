@@ -13,11 +13,11 @@ $plugin = array(
   'theme' => 'curriculum',
   'css' => 'css/layouts/curriculum/curriculum.layout.css',
   'regions' => array(
-    'first' => t('First'),
-    'second' => t('Second'),
-    'third' => t('Third'),
-    'fourth' => t('Fourth'),
-    'fifth' => t('Fifth'),
-    'sixth' => t('Sixth'),
+    'curriculum_first' => t('First'),
+    'curriculum_second' => t('Second'),
+    'curriculum_third' => t('Third'),
+    'curriculum_fourth' => t('Fourth'),
+    'curriculum_fifth' => t('Fifth'),
+    'curriculum_sixth' => t('Sixth'),
   ),
 );

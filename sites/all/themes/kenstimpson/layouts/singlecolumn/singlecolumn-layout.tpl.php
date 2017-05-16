@@ -65,9 +65,11 @@
 	<?php if($page['footer']) { ?>
 		<div class="ks_footer"><?php echo render($page['footer']); ?></div>
 	<?php } ?>
-	
-	
 </div>
+
+<?php if($page['submenu']) { ?>
+<div class="ks_submenu"><div class="ks_submenu_container"><?php echo render($page['submenu']); ?></div></div>
+	<?php } ?>
 
 <div class="ks_bottom">
 	<div class="ks_bottom_container">

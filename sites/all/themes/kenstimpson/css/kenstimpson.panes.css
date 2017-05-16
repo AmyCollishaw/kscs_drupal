@@ -1,0 +1,21 @@
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/* line 25, ../sass/kenstimpson.panes.scss */
+.curriculum_container .panel-pane {
+  border: 1px solid #ddd;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+/* line 33, ../sass/kenstimpson.panes.scss */
+#curr_image {
+  padding: 0px; }
+
+/* line 37, ../sass/kenstimpson.panes.scss */
+#curr_image, #panels_tabs, #panels_tabs_container {
+  border: none; }
+
+/*# sourceMappingURL=kenstimpson.panes.css.map */

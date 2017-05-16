@@ -53,11 +53,22 @@ a:link
 		{
 			border-bottom: 1px solid $ksBlue;
 		}
+		a:visited
+		{
+			color: $ksBlue;
+		}
+		a.active
+		{
+			color: #000;
+			font-weight: bold;
+		}
 	}
 
 .main_ks_body
 {
-	margin: 0 auto;
+	margin: 0 auto 20px auto;
+	padding-bottom: 20px;
+
 	z-index: 100;
 	position: relative;
 	font-family: $mainFontFamily;
@@ -239,4 +250,160 @@ a:link
 			color: $ksBlue;
 		}
 	}
+}
+
+
+
+.ks_submenu
+{
+	background-color: #8AD5EF;
+	color: #727272;
+	width: 100%;
+	@include clearfix;
+	margin-top: 20px;
+	font-size: $smallerText;
+	line-height: 2em;
+	border: 0px solid green;
+	text-align: center;
+	
+	a
+	{
+		color: #727272;
+	}
+	.menu .leaf
+	{
+		list-style-type:  none;
+		list-style-image:  none;
+		list-style: none;
+	}
+}
+@include breakpoint($desk, true)
+{
+	.ks_submenu_container
+	{
+		background-image: url('../images/submenu.png');
+		background-repeat: no-repeat;
+		width: 1120px;
+		@include clearfix;
+		margin: auto;
+		padding-top: 5px;
+		border: 0px solid red;
+
+		font-size: $mainMenuSize;
+		.menu
+		{
+			text-align: left;
+			padding-left: 55px;
+		}
+		.block__title
+		{
+			font-size: $h2;
+			text-align: left;
+			padding: 20px 0px 0px 9px;
+			margin: 0px;
+		}
+		.block__content
+		{
+			text-align: left;
+			padding-left: 55px;
+		}
+	}
+	
+}
+
+.menu-level-3
+{
+	.menu .leaf
+	{
+		list-style-type:  none;
+		list-style-image:  none;
+		list-style: none;
+		font-size: $mainMenuSize;
+	}
+	.menu
+	{
+		text-align: left;
+		line-height: 2em;
+	}
+}
+
+.ks_bottom
+{
+	background-color: #163251;
+	color: #727272;
+	width: 100%;
+	@include clearfix;
+	margin-top: 0px;
+	font-size: $smallerText;
+	line-height: 1.5em;
+	a
+	{
+		color: #727272;
+	}
+	.menu .leaf
+	{
+		list-style-type:  none;
+		list-style-image:  none;
+		list-style: none;
+	}
+}
+@include breakpoint($desk, true)
+{
+	.ks_bottom_container
+	{
+		width: $desk;
+		@include clearfix;
+		margin: auto;
+	}
+	.ks_bottom_first
+	{
+		@include grid-span(4,1);
+		border: 0px solid red;
+	}
+	.ks_bottom_centre
+	{
+		@include grid-span(4, 5);
+		border: 0px solid yellow;
+	}
+	.ks_bottom_second
+	{
+		@include grid-span(4, 9);	
+		@include clearfix;
+		border: 0px solid green;
+	}
+}
+
+.ks_content .block
+{
+	/*mobile view*/
+	color: $ksBlue;
+	
+	/*tablet view*/
+	@include breakpoint($tab, true)
+	{
+		
+	}
+	
+	/*desktop view*/
+	@include breakpoint($desk, true)
+	{
+		padding: 5px;
+		font-size: $mainFontSize;
+		.block__title
+		{
+			font-size: $blockTitleSize;
+			font-weight: 100;
+			
+			padding-top: 0px;
+			padding-bottom: 5px;
+			margin-top: 0px;
+			margin-bottom: 10px;
+			border-bottom: 1px solid #eee;
+		}
+	}
+	
+}
+
+.ui-front.media-wrapper {
+ z-index: 1002;
 }

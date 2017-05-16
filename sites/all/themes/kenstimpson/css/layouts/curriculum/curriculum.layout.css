@@ -1,16 +1,19 @@
 @media (min-width: 44em) {
-  /* line 10, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-  .third {
+  /* line 11, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+  .curriculum_container .curriculum_third {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
     border: 0px solid red;
+    text-align: center;
     clear: both; }
-
-  /* line 17, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-  .first {
+    /* line 17, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+    .curriculum_container .curriculum_third img {
+      width: 100%; }
+  /* line 23, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+  .curriculum_container .curriculum_first {
     width: 74.57627%;
     float: left;
     margin-right: -100%;
@@ -18,9 +21,8 @@
     clear: none;
     border: 0px solid yellow;
     clear: both; }
-
-  /* line 25, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-  .second {
+  /* line 31, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+  .curriculum_container .curriculum_second {
     width: 23.72881%;
     float: right;
     margin-left: 0;
@@ -29,9 +31,8 @@
     overflow: hidden;
     *zoom: 1;
     border: 0px solid green; }
-
-  /* line 32, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-  .fourth {
+  /* line 38, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+  .curriculum_container .curriculum_fourth {
     width: 74.57627%;
     float: left;
     margin-right: -100%;
@@ -39,21 +40,19 @@
     clear: none;
     border: 0px solid red;
     clear: both; }
-    /* line 37, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-    .fourth .panel-separator {
+    /* line 43, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+    .curriculum_container .curriculum_fourth .panel-separator {
       display: none; }
-
-  /* line 43, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-  .fifth {
+  /* line 49, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+  .curriculum_container .curriculum_fifth {
     width: 23.72881%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
     border: 0px solid yellow; }
-
-  /* line 50, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-  .sixth {
+  /* line 56, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+  .curriculum_container .curriculum_sixth {
     width: 100%;
     float: right;
     margin-left: 0;
@@ -62,14 +61,13 @@
     overflow: hidden;
     *zoom: 1;
     border: 0px solid green; } }
-/* line 59, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-.pane-panels-ajax-tab-tabs ul {
+/* line 65, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+.curriculum_container .pane-panels-ajax-tab-tabs ul {
   margin: 0px;
   padding: 0px;
   list-style: none; }
-
-/* line 68, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-.panels-ajax-tab li a {
+/* line 74, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+.curriculum_container .panels-ajax-tab li a {
   display: inline-block;
   float: left;
   border-top: 1px solid #ccc;
@@ -81,9 +79,8 @@
   border-top-left-radius: 5px;
   font-weight: bold;
   background-color: #eee; }
-
-/* line 83, ../../../sass/layouts/curriculum/curriculum.layout.scss */
-.panels-ajax-tab li.active a {
+/* line 89, ../../../sass/layouts/curriculum/curriculum.layout.scss */
+.curriculum_container .panels-ajax-tab li.active a {
   background-color: #979797; }
 
 /*# sourceMappingURL=curriculum.layout.css.map */

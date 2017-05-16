@@ -14,6 +14,7 @@ regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = First Sidebar
 regions[sidebar_second] = Second Sidebar
+regions[submenu] = Sub-menu
 regions[bottom_first] = Bottom First Sidebar
 regions[bottom_centre] = Bottom Centre
 regions[bottom_second] = Bottom Second Sidebar

@@ -26,10 +26,20 @@ a:link {
 
   /* line 52, ../sass/kenstimpson.styles.scss */
   a:hover {
-    border-bottom: 1px solid #163251; } }
-/* line 58, ../sass/kenstimpson.styles.scss */
+    border-bottom: 1px solid #163251; }
+
+  /* line 56, ../sass/kenstimpson.styles.scss */
+  a:visited {
+    color: #163251; }
+
+  /* line 60, ../sass/kenstimpson.styles.scss */
+  a.active {
+    color: #000;
+    font-weight: bold; } }
+/* line 67, ../sass/kenstimpson.styles.scss */
 .main_ks_body {
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
+  padding-bottom: 20px;
   z-index: 100;
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
@@ -37,11 +47,11 @@ a:link {
   color: #163251;
   overflow: hidden; }
   @media (min-width: 44em) {
-    /* line 58, ../sass/kenstimpson.styles.scss */
+    /* line 67, ../sass/kenstimpson.styles.scss */
     .main_ks_body {
       width: 44em; } }
   @media (min-width: 70em) {
-    /* line 58, ../sass/kenstimpson.styles.scss */
+    /* line 67, ../sass/kenstimpson.styles.scss */
     .main_ks_body {
       width: 70em;
       box-shadow: 5px 5px 10px 5px #ccc;
@@ -54,23 +64,23 @@ a:link {
     display: table;
     clear: both; }
 
-/* line 83, ../sass/kenstimpson.styles.scss */
+/* line 94, ../sass/kenstimpson.styles.scss */
 .ks_header {
   background-color: #FFF;
   text-align: right; }
 
-/* line 88, ../sass/kenstimpson.styles.scss */
+/* line 99, ../sass/kenstimpson.styles.scss */
 .ks_banner {
   visibility: hidden;
   display: none;
   background-color: #FFF; }
   @media (min-width: 44em) {
-    /* line 88, ../sass/kenstimpson.styles.scss */
+    /* line 99, ../sass/kenstimpson.styles.scss */
     .ks_banner {
       visibility: hidden;
       display: none; } }
   @media (min-width: 70em) {
-    /* line 88, ../sass/kenstimpson.styles.scss */
+    /* line 99, ../sass/kenstimpson.styles.scss */
     .ks_banner {
       visibility: visible;
       display: block;
@@ -82,37 +92,37 @@ a:link {
     display: table;
     clear: both; }
 
-/* line 107, ../sass/kenstimpson.styles.scss */
+/* line 118, ../sass/kenstimpson.styles.scss */
 .ks_menu {
   position: relative; }
 
-/* line 114, ../sass/kenstimpson.styles.scss */
+/* line 125, ../sass/kenstimpson.styles.scss */
 .ks_banner .ks_logo a {
   color: #163251; }
-/* line 118, ../sass/kenstimpson.styles.scss */
+/* line 129, ../sass/kenstimpson.styles.scss */
 .ks_banner .ks_logo a:link {
   text-decoration: none;
   border: none;
   color: #163251; }
 @media (min-width: 70em) {
-  /* line 112, ../sass/kenstimpson.styles.scss */
+  /* line 123, ../sass/kenstimpson.styles.scss */
   .ks_banner .ks_logo {
     position: absolute;
     top: 43px;
     left: 15px;
     z-index: 200; } }
-/* line 132, ../sass/kenstimpson.styles.scss */
+/* line 143, ../sass/kenstimpson.styles.scss */
 .ks_banner .ks_logo .logo_name {
   background-image: url("../images/logo_text_background.png"); }
-  /* line 134, ../sass/kenstimpson.styles.scss */
+  /* line 145, ../sass/kenstimpson.styles.scss */
   .ks_banner .ks_logo .logo_name .logo_kenstimpson {
     font-size: 30px; }
-  /* line 138, ../sass/kenstimpson.styles.scss */
+  /* line 149, ../sass/kenstimpson.styles.scss */
   .ks_banner .ks_logo .logo_name .logo_comschool {
     font-size: 22px; }
 
 @media (min-width: 70em) {
-  /* line 149, ../sass/kenstimpson.styles.scss */
+  /* line 160, ../sass/kenstimpson.styles.scss */
   .ks_banner .ks_banner_image {
     position: absolute;
     top: 0px;
@@ -120,7 +130,7 @@ a:link {
     z-index: 49;
     width: 866px;
     height: 320px; }
-    /* line 160, ../sass/kenstimpson.styles.scss */
+    /* line 171, ../sass/kenstimpson.styles.scss */
     .ks_banner .ks_banner_image .banner_quote {
       width: 200px;
       height: 320px;
@@ -134,11 +144,11 @@ a:link {
       font-weight: 100;
       background-image: url("../images/quote_background.png"); } }
 
-/* line 177, ../sass/kenstimpson.styles.scss */
+/* line 188, ../sass/kenstimpson.styles.scss */
 .menu {
   text-align: center; }
 
-/* line 181, ../sass/kenstimpson.styles.scss */
+/* line 192, ../sass/kenstimpson.styles.scss */
 .main_ks_body .ks_menu {
   /*Mobile view*/
   width: 100%;
@@ -152,49 +162,202 @@ a:link {
     content: "";
     display: table;
     clear: both; }
-  /* line 189, ../sass/kenstimpson.styles.scss */
+  /* line 200, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li {
     list-style: none;
     display: block;
     padding-bottom: 5px;
     text-align: center; }
-  /* line 196, ../sass/kenstimpson.styles.scss */
+  /* line 207, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a {
     text-decoration: none;
     border: none;
     color: #FFF; }
-  /* line 202, ../sass/kenstimpson.styles.scss */
+  /* line 213, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a:hover {
     text-decoration: none;
     border: none; }
   @media (min-width: 44em) {
-    /* line 181, ../sass/kenstimpson.styles.scss */
+    /* line 192, ../sass/kenstimpson.styles.scss */
     .main_ks_body .ks_menu {
       color: #163251;
       background-color: #FFF; }
-      /* line 212, ../sass/kenstimpson.styles.scss */
+      /* line 223, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li {
         display: inline-block;
         list-style: none; }
-      /* line 217, ../sass/kenstimpson.styles.scss */
+      /* line 228, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li a {
         color: #163251; } }
   @media (min-width: 70em) {
-    /* line 181, ../sass/kenstimpson.styles.scss */
+    /* line 192, ../sass/kenstimpson.styles.scss */
     .main_ks_body .ks_menu {
       width: 97%;
       color: #163251;
       margin-top: 0px;
       margin-right: 20px;
       background-color: #FFF; }
-      /* line 230, ../sass/kenstimpson.styles.scss */
+      /* line 241, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li {
         display: inline-block;
         list-style: none;
         width: 12.5%;
         text-align: center; }
-      /* line 237, ../sass/kenstimpson.styles.scss */
+      /* line 248, ../sass/kenstimpson.styles.scss */
       .main_ks_body .ks_menu li a {
         color: #163251; } }
+
+/* line 257, ../sass/kenstimpson.styles.scss */
+.ks_submenu {
+  background-color: #8AD5EF;
+  color: #727272;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 0.9em;
+  line-height: 2em;
+  border: 0px solid green;
+  text-align: center; }
+  /* line 13, ../../../../../../../../lib/gems/2.1.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
+  .ks_submenu:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 269, ../sass/kenstimpson.styles.scss */
+  .ks_submenu a {
+    color: #727272; }
+  /* line 273, ../sass/kenstimpson.styles.scss */
+  .ks_submenu .menu .leaf {
+    list-style-type: none;
+    list-style-image: none;
+    list-style: none; }
+
+@media (min-width: 70em) {
+  /* line 282, ../sass/kenstimpson.styles.scss */
+  .ks_submenu_container {
+    background-image: url("../images/submenu.png");
+    background-repeat: no-repeat;
+    width: 1120px;
+    margin: auto;
+    padding-top: 5px;
+    border: 0px solid red;
+    font-size: 1.3em; }
+    /* line 13, ../../../../../../../../lib/gems/2.1.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
+    .ks_submenu_container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    /* line 293, ../sass/kenstimpson.styles.scss */
+    .ks_submenu_container .menu {
+      text-align: left;
+      padding-left: 55px; }
+    /* line 298, ../sass/kenstimpson.styles.scss */
+    .ks_submenu_container .block__title {
+      font-size: 1.2em;
+      text-align: left;
+      padding: 20px 0px 0px 9px;
+      margin: 0px; }
+    /* line 305, ../sass/kenstimpson.styles.scss */
+    .ks_submenu_container .block__content {
+      text-align: left;
+      padding-left: 55px; } }
+/* line 316, ../sass/kenstimpson.styles.scss */
+.menu-level-3 .menu .leaf {
+  list-style-type: none;
+  list-style-image: none;
+  list-style: none;
+  font-size: 1.3em; }
+/* line 323, ../sass/kenstimpson.styles.scss */
+.menu-level-3 .menu {
+  text-align: left;
+  line-height: 2em; }
+
+/* line 330, ../sass/kenstimpson.styles.scss */
+.ks_bottom {
+  background-color: #163251;
+  color: #727272;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 0.9em;
+  line-height: 1.5em; }
+  /* line 13, ../../../../../../../../lib/gems/2.1.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
+  .ks_bottom:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 339, ../sass/kenstimpson.styles.scss */
+  .ks_bottom a {
+    color: #727272; }
+  /* line 343, ../sass/kenstimpson.styles.scss */
+  .ks_bottom .menu .leaf {
+    list-style-type: none;
+    list-style-image: none;
+    list-style: none; }
+
+@media (min-width: 70em) {
+  /* line 352, ../sass/kenstimpson.styles.scss */
+  .ks_bottom_container {
+    width: 70em;
+    margin: auto; }
+    /* line 13, ../../../../../../../../lib/gems/2.1.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
+    .ks_bottom_container:after {
+      content: "";
+      display: table;
+      clear: both; }
+
+  /* line 358, ../sass/kenstimpson.styles.scss */
+  .ks_bottom_first {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    border: 0px solid red; }
+
+  /* line 363, ../sass/kenstimpson.styles.scss */
+  .ks_bottom_centre {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 33.89831%;
+    clear: none;
+    border: 0px solid yellow; }
+
+  /* line 368, ../sass/kenstimpson.styles.scss */
+  .ks_bottom_second {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    border: 0px solid green; }
+    /* line 13, ../../../../../../../../lib/gems/2.1.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
+    .ks_bottom_second:after {
+      content: "";
+      display: table;
+      clear: both; } }
+/* line 376, ../sass/kenstimpson.styles.scss */
+.ks_content .block {
+  /*mobile view*/
+  color: #163251;
+  /*tablet view*/
+  /*desktop view*/ }
+  @media (min-width: 70em) {
+    /* line 376, ../sass/kenstimpson.styles.scss */
+    .ks_content .block {
+      padding: 5px;
+      font-size: 1em; }
+      /* line 392, ../sass/kenstimpson.styles.scss */
+      .ks_content .block .block__title {
+        font-size: 2em;
+        font-weight: 100;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid #eee; } }
+
+/* line 407, ../sass/kenstimpson.styles.scss */
+.ui-front.media-wrapper {
+  z-index: 1002; }
 
 /*# sourceMappingURL=kenstimpson.styles.css.map */
