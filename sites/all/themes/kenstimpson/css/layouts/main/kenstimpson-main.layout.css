@@ -1,0 +1,19 @@
+/*******************************************************************************
+ * main.layout.scss
+ *
+ * Styles for the Main layout.
+ ******************************************************************************/
+/* line 13, ../../../sass/layouts/main/kenstimpson-main.layout.scss */
+.main_ks_body {
+  margin: 0 auto;
+  border: 6px solid red; }
+  @media (min-width: 44em) {
+    /* line 13, ../../../sass/layouts/main/kenstimpson-main.layout.scss */
+    .main_ks_body {
+      width: 44em; } }
+  @media (min-width: 70em) {
+    /* line 13, ../../../sass/layouts/main/kenstimpson-main.layout.scss */
+    .main_ks_body {
+      width: 70em; } }
+
+/*# sourceMappingURL=kenstimpson-main.layout.css.map */

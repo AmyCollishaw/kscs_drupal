@@ -4,17 +4,23 @@
 
 // Globbing from within sub-folders only works with relative paths.
 @import "../../variables/**/*";
-
+.curriculum_container
+{
 @include breakpoint($tab, true)
 {
-	.third
+	.curriculum_third
 	{
 		@include grid-span(12, 1);
 		border: 0px solid red;
+		text-align: center;
 		clear: both;
+		img 
+		{
+			width: 100%;
+		}
 
 	}
-	.first
+	.curriculum_first
 	{
 		@include grid-span(9, 1);
 
@@ -22,14 +28,14 @@
 		clear: both;
 
 	}
-	.second
+	.curriculum_second
 	{
 		@include grid-span(3, 10);	
 		@include clearfix;
 		border: 0px solid green;
 
 	}
-	.fourth
+	.curriculum_fourth
 	{
 		@include grid-span(9, 1);
 		border: 0px solid red;
@@ -40,14 +46,14 @@
 		}
 
 	}
-	.fifth
+	.curriculum_fifth
 	{
 		@include grid-span(3, 10);
 
 		border: 0px solid yellow;
 
 	}
-	.sixth
+	.curriculum_sixth
 	{
 		@include grid-span(12, 1);	
 		@include clearfix;
@@ -84,4 +90,5 @@
 {
 	
 	background-color: #979797;
+}
 }

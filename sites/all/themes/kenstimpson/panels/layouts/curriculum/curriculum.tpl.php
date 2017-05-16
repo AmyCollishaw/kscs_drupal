@@ -9,6 +9,7 @@
  * panel of the layout. This layout supports the following sections:
  */
 ?>
+<div class="curriculum_container">
 <div<?php print $attributes ?>>
   <?php foreach($content as $name => $item): ?>
     <?php if (!empty($item)): ?>
@@ -17,4 +18,5 @@
       </div>
     <?php endif; ?>
   <?php endforeach; ?>
+</div>
 </div>

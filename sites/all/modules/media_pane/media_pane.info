@@ -1,0 +1,15 @@
+name = Media Pane
+description = Add media content to fieldable panel panes
+core = 7.x
+package = Media
+
+dependencies[] = list
+dependencies[] = media
+dependencies[] = fieldable_panels_panes
+
+; Information added by Drupal.org packaging script on 2016-08-31
+version = "7.x-1.1"
+core = "7.x"
+project = "media_pane"
+datestamp = "1472633940"
+

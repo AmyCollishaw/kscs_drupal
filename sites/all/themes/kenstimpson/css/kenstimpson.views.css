@@ -3,24 +3,25 @@
 img, media {
   max-width: 100%; }
 
-/* line 26, ../sass/kenstimpson.views.scss */
-.view-calendar .views-row {
+/*CALENDAR VIEW*/
+/* line 28, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-2 .view-calendar .views-row {
   border-top: 1px solid #E0E0E0;
   border-bottom: 1px solid #E0E0E0;
   margin-bottom: 5px;
   border-top-left-radius: 15px; }
-/* line 34, ../sass/kenstimpson.views.scss */
-.view-calendar .event_title {
+/* line 36, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-2 .view-calendar .event_title {
   margin-left: 60px;
   padding-top: 15px;
   font-size: 0.9em; }
   /* line 13, ../../../../../../../../lib/gems/2.1.0/gems/toolkit-2.10.2/stylesheets/toolkit/_clearfix.scss */
-  .view-calendar .event_title:after {
+  .block--views-calendar-block-2 .view-calendar .event_title:after {
     content: "";
     display: table;
     clear: both; }
-/* line 41, ../sass/kenstimpson.views.scss */
-.view-calendar .event_date_container {
+/* line 43, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-2 .view-calendar .event_date_container {
   border: 1px solid #CACACA;
   text-align: center;
   width: 50px;
@@ -28,41 +29,55 @@ img, media {
   border-bottom-right-radius: 15px;
   border-top-left-radius: 15px;
   box-shadow: 1px 1px 5px 1px #ddd; }
-  /* line 51, ../sass/kenstimpson.views.scss */
-  .view-calendar .event_date_container .event_month {
+  /* line 53, ../sass/kenstimpson.views.scss */
+  .block--views-calendar-block-2 .view-calendar .event_date_container .event_month {
     background-color: #073E5F;
     color: #fff;
     font-size: .8em;
     border-top-left-radius: 15px; }
-  /* line 58, ../sass/kenstimpson.views.scss */
-  .view-calendar .event_date_container .event_date {
+  /* line 60, ../sass/kenstimpson.views.scss */
+  .block--views-calendar-block-2 .view-calendar .event_date_container .event_date {
     font-size: 1.3em;
     background-color: #E6F4FD; }
-  /* line 63, ../sass/kenstimpson.views.scss */
-  .view-calendar .event_date_container .event_day {
+  /* line 65, ../sass/kenstimpson.views.scss */
+  .block--views-calendar-block-2 .view-calendar .event_date_container .event_day {
     font-size: .7em;
     background-color: #9CB2BF;
     border-bottom-right-radius: 15px; }
-/* line 70, ../sass/kenstimpson.views.scss */
-.view-calendar .view-footer {
+/* line 72, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-2 .view-calendar .view-footer {
   font-size: 0.7em;
   text-align: right; }
 
-/* line 77, ../sass/kenstimpson.views.scss */
+/* line 81, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-1 .view-calendar li, .view-display-id-page_4 li {
+  list-style: none; }
+/* line 85, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-1 .view-calendar .date-prev, .view-display-id-page_4 .date-prev {
+  float: left;
+  position: absolute;
+  right: auto; }
+/* line 91, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-1 .view-calendar .date-next, .view-display-id-page_4 .date-next {
+  float: right;
+  position: absolute; }
+
+/*CURRICULUM PAGE*/
+/* line 101, ../sass/kenstimpson.views.scss */
 .ks_centre .view-curriculum {
   clear: both;
-  border: 1px solid #ccc;
+  /*border: 1px solid #ccc;
   border-bottom-right-radius: 15px;
-  padding: 10px;
+  padding: 10px;*/
   margin-bottom: 10px; }
-  /* line 85, ../sass/kenstimpson.views.scss */
+  /* line 109, ../sass/kenstimpson.views.scss */
   .ks_centre .view-curriculum .views-row {
     margin-bottom: 20px; }
-  /* line 90, ../sass/kenstimpson.views.scss */
+  /* line 114, ../sass/kenstimpson.views.scss */
   .ks_centre .view-curriculum .views-field-field-curr-topic {
     font-size: 1.2em;
     font-weight: bold; }
-  /* line 96, ../sass/kenstimpson.views.scss */
+  /* line 120, ../sass/kenstimpson.views.scss */
   .ks_centre .view-curriculum .views-field-field-curr-topic-desc .views-label,
   .ks_centre .view-curriculum .views-field-field-curr-topic-assess .views-label,
   .ks_centre .view-curriculum .views-field-field-curr-topic-homework .views-label {
@@ -70,19 +85,19 @@ img, media {
     font-weight: bold; }
 
 /*POST 16 PAGE*/
-/* line 107, ../sass/kenstimpson.views.scss */
+/* line 131, ../sass/kenstimpson.views.scss */
 .node-post-16-course-information img {
   float: right; }
 
-/* line 111, ../sass/kenstimpson.views.scss */
+/* line 135, ../sass/kenstimpson.views.scss */
 .view-p16-courses {
   position: relative; }
 
-/* line 115, ../sass/kenstimpson.views.scss */
+/* line 139, ../sass/kenstimpson.views.scss */
 .view-p16-courses .views-field-field-p16-course-image {
   float: right; }
 
-/* line 119, ../sass/kenstimpson.views.scss */
+/* line 143, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-field-title {
   position: relative;
   font-size: 3em;
@@ -98,19 +113,19 @@ img, media {
   padding-right: 5px;
   z-index: 100; }
 
-/* line 135, ../sass/kenstimpson.views.scss */
+/* line 159, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-level,
 .p16-course-page-view .views-label-field-p16-duration {
   float: left; }
 
-/* line 142, ../sass/kenstimpson.views.scss */
+/* line 166, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-level,
 .p16-course-page-view .views-label-field-p16-duration,
 .p16-course-page-view .views-label-field-p16-qualification,
 .p16-course-page-view .views-label-field-p16-entry-requirements {
   font-weight: bold; }
 
-/* line 152, ../sass/kenstimpson.views.scss */
+/* line 176, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-what-will-i-learn-,
 .p16-course-page-view .views-label-field-p16-further-course-content,
 .p16-course-page-view .views-label-field-p16-enrichment-activities,
@@ -121,5 +136,71 @@ img, media {
   font-size: 1.7em;
   color: #163251;
   clear: both; }
+
+/*POLICIES BLOCK*/
+/* line 192, ../sass/kenstimpson.views.scss */
+#block-views-policies-block .field-content a {
+  line-height: 1.5em;
+  padding-right: 5px; }
+/* line 198, ../sass/kenstimpson.views.scss */
+#block-views-policies-block .policy_review_date {
+  font-size: 0.7em;
+  color: #4B4B4B; }
+
+/* line 205, ../sass/kenstimpson.views.scss */
+.view-display-id-page_1 {
+  line-height: 2.5em; }
+  /* line 208, ../sass/kenstimpson.views.scss */
+  .view-display-id-page_1 a {
+    font-size: 1.1em;
+    display: inline-block;
+    width: 350px;
+    border-bottom: 1px dashed #ccc; }
+  /* line 215, ../sass/kenstimpson.views.scss */
+  .view-display-id-page_1 .policy_review_date {
+    font-size: 0.9em;
+    color: #A9A9A9; }
+
+/*STUDENT COUNCIL PAGE*/
+/* line 225, ../sass/kenstimpson.views.scss */
+.view-student-council .views-view-grid {
+  width: 100%;
+  border-collapse: separate;
+  padding: 20px;
+  border-spacing: 20px; }
+  /* line 233, ../sass/kenstimpson.views.scss */
+  .view-student-council .views-view-grid td {
+    width: 50%;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    font-size: 2em;
+    border-bottom-right-radius: 15px; }
+    /* line 242, ../sass/kenstimpson.views.scss */
+    .view-student-council .views-view-grid td a {
+      text-decoration: none;
+      width: 100%; }
+    /* line 247, ../sass/kenstimpson.views.scss */
+    .view-student-council .views-view-grid td a:hover {
+      border: 0px;
+      text-decoration: none; }
+  /* line 250, ../sass/kenstimpson.views.scss */
+  .view-student-council .views-view-grid .row-1 .col-1 {
+    background-color: aquamarine; }
+  /* line 254, ../sass/kenstimpson.views.scss */
+  .view-student-council .views-view-grid .row-1 .col-2 {
+    background-color: forestgreen; }
+  /* line 258, ../sass/kenstimpson.views.scss */
+  .view-student-council .views-view-grid .row-2 .col-1 {
+    background-color: yellow; }
+  /* line 262, ../sass/kenstimpson.views.scss */
+  .view-student-council .views-view-grid .row-2 .col-2 {
+    background-color: coral; }
+  /* line 266, ../sass/kenstimpson.views.scss */
+  .view-student-council .views-view-grid .row-3 .col-1 {
+    background-color: mediumpurple; }
+  /* line 270, ../sass/kenstimpson.views.scss */
+  .view-student-council .views-view-grid .row-3 .col-2 {
+    background-color: dodgerblue; }
 
 /*# sourceMappingURL=kenstimpson.views.css.map */

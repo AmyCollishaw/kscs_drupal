@@ -21,7 +21,9 @@
 @import "base/**/*";
 @import "components/**/*";
 
-.view-calendar
+
+/*CALENDAR VIEW*/
+.block--views-calendar-block-2 .view-calendar
 {
 	.views-row
 	{
@@ -74,12 +76,34 @@
 	}
 }
 
+.block--views-calendar-block-1 .view-calendar, .view-display-id-page_4
+{
+	li 
+	{
+		list-style: none;
+	}
+	.date-prev
+	{
+		float: left;
+		position: absolute;
+		right: auto;
+	}
+	.date-next
+	{
+		float: right;
+		position: absolute;
+		
+	}
+}
+
+
+/*CURRICULUM PAGE*/
 .ks_centre .view-curriculum
 {
 	clear: both;
-	border: 1px solid #ccc;
+	/*border: 1px solid #ccc;
 	border-bottom-right-radius: 15px;
-	padding: 10px;
+	padding: 10px;*/
 	margin-bottom: 10px;
 	
 	.views-row
@@ -160,4 +184,92 @@
 	font-size: 1.7em;
 	color: #163251;
 	clear: both;
+}
+
+/*POLICIES BLOCK*/
+#block-views-policies-block
+{
+	.field-content a
+	{
+		line-height: 1.5em;
+		padding-right: 5px;
+		
+	}
+	.policy_review_date
+	{
+		font-size: $smallText;
+		color: #4B4B4B;
+	}
+}
+
+.view-display-id-page_1
+{
+	line-height: 2.5em;
+	a
+	{
+		font-size: $mainLargerText;
+		display: inline-block;
+		width: 350px;
+		border-bottom: 1px dashed #ccc;
+	}
+	.policy_review_date
+	{
+		font-size: $smallerText;
+		color: #A9A9A9;
+	}
+}
+
+/*STUDENT COUNCIL PAGE*/
+.view-student-council
+{
+	.views-view-grid
+	{
+
+			width: 100%;
+			border-collapse: separate;
+			padding: 20px;
+			border-spacing: 20px;
+
+		td 
+		{
+			width: 50%;
+			padding: 30px;
+			margin: 20px;
+			text-align: center;
+			font-size: $h1;
+			border-bottom-right-radius: 15px;
+			
+			a
+			{
+				text-decoration: none;
+				width: 100%;
+			}
+			a:hover{ border: 0px; text-decoration: none;}
+			
+		}
+		.row-1 .col-1
+		{
+			background-color: aquamarine;
+		}
+		.row-1 .col-2
+		{
+			background-color: forestgreen;
+		}
+		.row-2 .col-1
+		{
+			background-color: yellow;
+		}
+		.row-2 .col-2
+		{
+			background-color: coral;
+		}
+		.row-3 .col-1
+		{
+			background-color: mediumpurple;
+		}
+		.row-3 .col-2
+		{
+			background-color: dodgerblue;
+		}
+	}
 }
