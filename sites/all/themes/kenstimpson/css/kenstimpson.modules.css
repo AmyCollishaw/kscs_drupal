@@ -1,0 +1,23 @@
+/* No files to import found in abstractions/**\/* */
+/* line 1, ../sass/base/_media.scss */
+img, media {
+  max-width: 100%; }
+
+/*MMENU*/
+/* line 25, ../sass/kenstimpson.modules.scss */
+#off-canvas .mm-panels {
+  background: #163251; }
+
+/* line 30, ../sass/kenstimpson.modules.scss */
+#block-responsive-menu-toggle {
+  color: black;
+  background-color: #163251;
+  position: absolute;
+  top: -2px;
+  right: 0px;
+  width: 40px;
+  overflow: hidden;
+  height: 30px;
+  margin-bottom: 5px; }
+
+/*# sourceMappingURL=kenstimpson.modules.css.map */

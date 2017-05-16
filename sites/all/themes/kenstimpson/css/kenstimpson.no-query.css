@@ -170,24 +170,36 @@ a.active {
   .main_ks_body .ks_menu li a:hover {
     text-decoration: none;
     border: none; }
-  /* line 223, ../sass/kenstimpson.styles.scss */
+  /* line 218, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu .menu {
+    display: none;
+    visibility: hidden; }
+  /* line 228, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li {
     display: inline-block;
     list-style: none; }
-  /* line 228, ../sass/kenstimpson.styles.scss */
+  /* line 233, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a {
     color: #163251; }
-  /* line 241, ../sass/kenstimpson.styles.scss */
+  /* line 237, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu .menu {
+    display: block;
+    visibility: visible; }
+  /* line 246, ../sass/kenstimpson.styles.scss */
+  .main_ks_body .ks_menu .menu {
+    display: block;
+    visibility: visible; }
+  /* line 256, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li {
     display: inline-block;
     list-style: none;
     width: 12.5%;
     text-align: center; }
-  /* line 248, ../sass/kenstimpson.styles.scss */
+  /* line 263, ../sass/kenstimpson.styles.scss */
   .main_ks_body .ks_menu li a {
     color: #163251; }
 
-/* line 257, ../sass/kenstimpson.styles.scss */
+/* line 274, ../sass/kenstimpson.styles.scss */
 .ks_submenu {
   background-color: #8AD5EF;
   color: #727272;
@@ -202,16 +214,16 @@ a.active {
     content: "";
     display: table;
     clear: both; }
-  /* line 269, ../sass/kenstimpson.styles.scss */
+  /* line 286, ../sass/kenstimpson.styles.scss */
   .ks_submenu a {
     color: #727272; }
-  /* line 273, ../sass/kenstimpson.styles.scss */
+  /* line 290, ../sass/kenstimpson.styles.scss */
   .ks_submenu .menu .leaf {
     list-style-type: none;
     list-style-image: none;
     list-style: none; }
 
-/* line 282, ../sass/kenstimpson.styles.scss */
+/* line 299, ../sass/kenstimpson.styles.scss */
 .ks_submenu_container {
   background-image: url("../images/submenu.png");
   background-repeat: no-repeat;
@@ -225,33 +237,33 @@ a.active {
     content: "";
     display: table;
     clear: both; }
-  /* line 293, ../sass/kenstimpson.styles.scss */
+  /* line 310, ../sass/kenstimpson.styles.scss */
   .ks_submenu_container .menu {
     text-align: left;
     padding-left: 55px; }
-  /* line 298, ../sass/kenstimpson.styles.scss */
+  /* line 315, ../sass/kenstimpson.styles.scss */
   .ks_submenu_container .block__title {
     font-size: 1.2em;
     text-align: left;
     padding: 20px 0px 0px 9px;
     margin: 0px; }
-  /* line 305, ../sass/kenstimpson.styles.scss */
+  /* line 322, ../sass/kenstimpson.styles.scss */
   .ks_submenu_container .block__content {
     text-align: left;
     padding-left: 55px; }
 
-/* line 316, ../sass/kenstimpson.styles.scss */
+/* line 333, ../sass/kenstimpson.styles.scss */
 .menu-level-3 .menu .leaf {
   list-style-type: none;
   list-style-image: none;
   list-style: none;
   font-size: 1.3em; }
-/* line 323, ../sass/kenstimpson.styles.scss */
+/* line 340, ../sass/kenstimpson.styles.scss */
 .menu-level-3 .menu {
   text-align: left;
   line-height: 2em; }
 
-/* line 330, ../sass/kenstimpson.styles.scss */
+/* line 347, ../sass/kenstimpson.styles.scss */
 .ks_bottom {
   background-color: #163251;
   color: #727272;
@@ -264,16 +276,16 @@ a.active {
     content: "";
     display: table;
     clear: both; }
-  /* line 339, ../sass/kenstimpson.styles.scss */
+  /* line 356, ../sass/kenstimpson.styles.scss */
   .ks_bottom a {
     color: #727272; }
-  /* line 343, ../sass/kenstimpson.styles.scss */
+  /* line 360, ../sass/kenstimpson.styles.scss */
   .ks_bottom .menu .leaf {
     list-style-type: none;
     list-style-image: none;
     list-style: none; }
 
-/* line 352, ../sass/kenstimpson.styles.scss */
+/* line 369, ../sass/kenstimpson.styles.scss */
 .ks_bottom_container {
   width: 70em;
   margin: auto; }
@@ -283,7 +295,7 @@ a.active {
     display: table;
     clear: both; }
 
-/* line 358, ../sass/kenstimpson.styles.scss */
+/* line 375, ../sass/kenstimpson.styles.scss */
 .ks_bottom_first {
   width: 32.20339%;
   float: left;
@@ -292,7 +304,7 @@ a.active {
   clear: none;
   border: 0px solid red; }
 
-/* line 363, ../sass/kenstimpson.styles.scss */
+/* line 380, ../sass/kenstimpson.styles.scss */
 .ks_bottom_centre {
   width: 32.20339%;
   float: left;
@@ -301,7 +313,7 @@ a.active {
   clear: none;
   border: 0px solid yellow; }
 
-/* line 368, ../sass/kenstimpson.styles.scss */
+/* line 385, ../sass/kenstimpson.styles.scss */
 .ks_bottom_second {
   width: 32.20339%;
   float: right;
@@ -315,7 +327,7 @@ a.active {
     display: table;
     clear: both; }
 
-/* line 376, ../sass/kenstimpson.styles.scss */
+/* line 393, ../sass/kenstimpson.styles.scss */
 .ks_content .block {
   /*mobile view*/
   color: #163251;
@@ -323,7 +335,7 @@ a.active {
   /*desktop view*/
   padding: 5px;
   font-size: 1em; }
-  /* line 392, ../sass/kenstimpson.styles.scss */
+  /* line 409, ../sass/kenstimpson.styles.scss */
   .ks_content .block .block__title {
     font-size: 2em;
     font-weight: 100;
@@ -333,7 +345,7 @@ a.active {
     margin-bottom: 10px;
     border-bottom: 1px solid #eee; }
 
-/* line 407, ../sass/kenstimpson.styles.scss */
+/* line 424, ../sass/kenstimpson.styles.scss */
 .ui-front.media-wrapper {
   z-index: 1002; }
 
