@@ -16,6 +16,7 @@ stylesheets[all][] = css/kenstimpson.background.css
 stylesheets[all][] = css/kenstimpson.views.css
 stylesheets[all][] = css/kenstimpson.blocks.css
 stylesheets[all][] = css/kenstimpson.panes.css
+stylesheets[all][] = css/kenstimpson.modules.css
 
 ; Plugins
 plugins[panels][layouts] = panels/layouts
