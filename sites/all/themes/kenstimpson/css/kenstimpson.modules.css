@@ -20,4 +20,12 @@ img, media {
   height: 30px;
   margin-bottom: 5px; }
 
+/*Easy Breadcrumbs*/
+/* line 45, ../sass/kenstimpson.modules.scss */
+.easy-breadcrumb {
+  font-size: 0.9em;
+  text-align: right;
+  padding-right: 10px;
+  width: 90%; }
+
 /*# sourceMappingURL=kenstimpson.modules.css.map */

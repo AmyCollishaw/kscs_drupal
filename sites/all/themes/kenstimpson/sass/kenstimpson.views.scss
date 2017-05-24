@@ -273,3 +273,55 @@
 		}
 	}
 }
+
+/*GOVERNORS*/
+.view-governors
+{
+	.views-row
+	{
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 10px;
+	}
+	.views-field-title
+	{
+		font-size: $h2;
+		font-weight: bold;
+	}
+	.views-field-field-governor-role,
+	.views-field-field-governor-profession,
+	.views-field-field-governor-why
+	{
+		margin-bottom: 10px;
+		.governor_role_label,
+		.governor_profession_label,
+		.views-label-field-governor-why
+		{
+			font-weight: bold;
+		}
+		.governor_role_value,
+		.governor_profession_value
+		{
+			/*font-style: italic;*/
+		}
+		
+	}
+	.views-field-field-governor-why
+		{
+			.field-content
+			{
+				line-height: 2em;
+			}
+		}
+	.views-field-field-image
+	{
+		float: right;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+	.governors_clear
+	{
+		clear:both;
+		height: 0px;
+	}
+}

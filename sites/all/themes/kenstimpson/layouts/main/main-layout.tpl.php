@@ -45,6 +45,9 @@
 	<div class="ks_content">
 		
 		<div class="ks_centre">
+			<?php if($page['breadcrumbs']) { ?>
+				<div class="ks_breadcrumbs"><?php print render($page['breadcrumbs']); ?></div>
+			<?php } ?>
 			<?php print render($title_prefix); ?>
 			  <?php if ($title): ?>
 				<h1><?php print $title; ?></h1>

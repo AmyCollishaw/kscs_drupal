@@ -58,6 +58,7 @@
 		@include grid-span(12, 1);	
 		@include clearfix;
 		border: 0px solid green;
+		clear: both;
 
 	}
 }

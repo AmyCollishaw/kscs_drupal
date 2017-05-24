@@ -15,7 +15,24 @@ img, media {
   padding: 0px; }
 
 /* line 37, ../sass/kenstimpson.panes.scss */
-#curr_image, #panels_tabs, #panels_tabs_container {
-  border: none; }
+#curr_image,
+#panels_tabs,
+#panels_tabs_container {
+  border: none;
+  text-align: left; }
+
+/* line 50, ../sass/kenstimpson.panes.scss */
+.pane-menu-block-1 .menu {
+  margin: 0px;
+  padding-left: 0px;
+  text-align: left; }
+/* line 56, ../sass/kenstimpson.panes.scss */
+.pane-menu-block-1 .menu .menu {
+  padding-left: 15px; }
+/* line 61, ../sass/kenstimpson.panes.scss */
+.pane-menu-block-1 .menu li {
+  list-style: none;
+  margin: 0px;
+  padding-left: 10px; }
 
 /*# sourceMappingURL=kenstimpson.panes.css.map */

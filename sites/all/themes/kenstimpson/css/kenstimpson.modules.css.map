@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,oDAAoD;;ACApD,UAAW;EACT,SAAS,EAAE,IAAI;;ACsBjB,SAAS;;AACT,sBACA;EACC,UAAU,EC1BF,OAAO;;;AD6BhB,6BACA;EACC,KAAK,EAAE,KAAK;EACZ,gBAAgB,EChCR,OAAO;EDiCf,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG",
-"sources": ["../sass/abstractions-slash-star-star-slash-star","../sass/base/_media.scss","../sass/kenstimpson.modules.scss","../sass/variables/_colors.scss"],
+"mappings": "AAAA,oDAAoD;;ACApD,UAAW;EACT,SAAS,EAAE,IAAI;;ACsBjB,SAAS;;AACT,sBACA;EACC,UAAU,EC1BF,OAAO;;;AD6BhB,6BACA;EACC,KAAK,EAAE,KAAK;EACZ,gBAAgB,EChCR,OAAO;EDiCf,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,IAAI;EACT,KAAK,EAAE,GAAG;EACV,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;;AAGnB,oBAAoB;;AAEpB,gBACA;EACC,SAAS,EE7CI,KAAI;EF8CjB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,GAAG",
+"sources": ["../sass/abstractions-slash-star-star-slash-star","../sass/base/_media.scss","../sass/kenstimpson.modules.scss","../sass/variables/_colors.scss","../sass/variables/_typography.scss"],
 "names": [],
 "file": "kenstimpson.modules.css"
 }

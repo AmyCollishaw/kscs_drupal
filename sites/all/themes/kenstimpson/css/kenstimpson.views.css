@@ -203,4 +203,51 @@ img, media {
   .view-student-council .views-view-grid .row-3 .col-2 {
     background-color: dodgerblue; }
 
+/*GOVERNORS*/
+/* line 280, ../sass/kenstimpson.views.scss */
+.view-governors .views-row {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px; }
+/* line 285, ../sass/kenstimpson.views.scss */
+.view-governors .views-field-title {
+  font-size: 1.2em;
+  font-weight: bold; }
+/* line 290, ../sass/kenstimpson.views.scss */
+.view-governors .views-field-field-governor-role,
+.view-governors .views-field-field-governor-profession,
+.view-governors .views-field-field-governor-why {
+  margin-bottom: 10px; }
+  /* line 295, ../sass/kenstimpson.views.scss */
+  .view-governors .views-field-field-governor-role .governor_role_label,
+  .view-governors .views-field-field-governor-role .governor_profession_label,
+  .view-governors .views-field-field-governor-role .views-label-field-governor-why,
+  .view-governors .views-field-field-governor-profession .governor_role_label,
+  .view-governors .views-field-field-governor-profession .governor_profession_label,
+  .view-governors .views-field-field-governor-profession .views-label-field-governor-why,
+  .view-governors .views-field-field-governor-why .governor_role_label,
+  .view-governors .views-field-field-governor-why .governor_profession_label,
+  .view-governors .views-field-field-governor-why .views-label-field-governor-why {
+    font-weight: bold; }
+  /* line 301, ../sass/kenstimpson.views.scss */
+  .view-governors .views-field-field-governor-role .governor_role_value,
+  .view-governors .views-field-field-governor-role .governor_profession_value,
+  .view-governors .views-field-field-governor-profession .governor_role_value,
+  .view-governors .views-field-field-governor-profession .governor_profession_value,
+  .view-governors .views-field-field-governor-why .governor_role_value,
+  .view-governors .views-field-field-governor-why .governor_profession_value {
+    /*font-style: italic;*/ }
+/* line 310, ../sass/kenstimpson.views.scss */
+.view-governors .views-field-field-governor-why .field-content {
+  line-height: 2em; }
+/* line 315, ../sass/kenstimpson.views.scss */
+.view-governors .views-field-field-image {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  display: inline-block; }
+/* line 322, ../sass/kenstimpson.views.scss */
+.view-governors .governors_clear {
+  clear: both;
+  height: 0px; }
+
 /*# sourceMappingURL=kenstimpson.views.css.map */

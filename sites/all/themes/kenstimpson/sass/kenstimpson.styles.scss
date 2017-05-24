@@ -312,6 +312,10 @@ a:link
 			text-align: left;
 			padding-left: 55px;
 		}
+		.expanded .menu
+		{
+			font-size: .8em;
+		}
 		.block__title
 		{
 			font-size: $h2;
@@ -325,6 +329,41 @@ a:link
 			padding-left: 55px;
 		}
 	}
+	
+	.ks_breadcrumbs
+	{
+		position: relative;
+		height: 30px;
+		
+		#sub-menu-link
+		{
+
+			width: 50px;
+			height: 20px;
+			position: absolute;
+			top: 6px;
+			right: 0px;
+			font-size: $smallerText;
+			/*background-image: url('../images/more_link.png');
+			background-repeat: no-repeat;*/
+			
+		}
+		#sub-menu-link a
+		{
+			width: 100%;
+			height: 20px;
+			display: inline-block;
+		}
+		
+		#sub-menu-link a:hover
+		{
+			border: none;
+		}
+		
+		
+	}
+	
+	
 	
 }
 
@@ -406,16 +445,25 @@ a:link
 	{
 		padding: 5px;
 		font-size: $mainFontSize;
+		margin-bottom: 10px;
 		.block__title
 		{
 			font-size: $blockTitleSize;
 			font-weight: 100;
 			
-			padding-top: 0px;
-			padding-bottom: 5px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 10px;
+			color: #fff;
+			background-color: $ksBlue;
+			border-bottom-right-radius: 15px;
+			border-top-left-radius: 15px;
+			/*box-shadow: 5px 5px 10px 5px #ccc;*/
+			
 			margin-top: 0px;
 			margin-bottom: 10px;
-			border-bottom: 1px solid #eee;
+			
+			
 		}
 	}
 	

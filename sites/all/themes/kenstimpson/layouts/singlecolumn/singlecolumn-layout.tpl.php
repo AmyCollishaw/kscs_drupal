@@ -42,20 +42,24 @@
 		<div class="ks_menu"><?php echo render($page['menu']); ?></div>
 	<?php } ?>-->
 
-
+	<div class="ks_content">
 		<div class="ks_centre">
+			<?php if($page['breadcrumbs']) { ?>
+				<div class="ks_breadcrumbs"><?php print render($page['breadcrumbs']); ?></div>
+			<?php } ?>
+			<?php print $messages; ?>
 			<?php print render($title_prefix); ?>
 			  <?php if ($title): ?>
 				<h1><?php print $title; ?></h1>
 			  <?php endif; ?>
 			  <?php print render($title_suffix); ?>
-			  <?php print $messages; ?>
-			  <?php print render($tabs); ?>
-			  <?php print render($page['help']); ?>
+			 
+			<?php print render($tabs); ?>
+			<?php print render($page['help']); ?>
 			  <?php if ($action_links): ?>
 				<ul class="action-links"><?php print render($action_links); ?></ul>
 			  <?php endif; ?>
-			  <?php print render($page['content']); ?>
+			<div class="content"><?php print render($page['content']); ?></div>
 			  <?php print $feed_icons; ?>
 		</div>
 		
@@ -68,7 +72,7 @@
 </div>
 
 <?php if($page['submenu']) { ?>
-<div class="ks_submenu"><div class="ks_submenu_container"><?php echo render($page['submenu']); ?></div></div>
+<div class="ks_submenu"><div class="ks_submenu_container"><a name="sub-menu"></a><?php echo render($page['submenu']); ?></div></div>
 	<?php } ?>
 
 <div class="ks_bottom">
