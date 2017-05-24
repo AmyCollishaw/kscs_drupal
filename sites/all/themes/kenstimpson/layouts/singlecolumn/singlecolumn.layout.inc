@@ -11,6 +11,7 @@ regions[banner_image] = Banner Image
 regions[menu] = Menu
 regions[highlighted] = Highlighted
 regions[help] = Help
+regions[breadcrumbs] = Breadcrumbs
 regions[content] = Content
 ;regions[sidebar_first] = First Sidebar
 ;regions[sidebar_second] = Second Sidebar

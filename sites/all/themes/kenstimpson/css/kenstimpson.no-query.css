@@ -242,28 +242,54 @@ a.active {
     text-align: left;
     padding-left: 55px; }
   /* line 315, ../sass/kenstimpson.styles.scss */
+  .ks_submenu_container .expanded .menu {
+    font-size: .8em; }
+  /* line 319, ../sass/kenstimpson.styles.scss */
   .ks_submenu_container .block__title {
     font-size: 1.2em;
     text-align: left;
     padding: 20px 0px 0px 9px;
     margin: 0px; }
-  /* line 322, ../sass/kenstimpson.styles.scss */
+  /* line 326, ../sass/kenstimpson.styles.scss */
   .ks_submenu_container .block__content {
     text-align: left;
     padding-left: 55px; }
 
 /* line 333, ../sass/kenstimpson.styles.scss */
+.ks_breadcrumbs {
+  position: relative;
+  height: 30px; }
+  /* line 338, ../sass/kenstimpson.styles.scss */
+  .ks_breadcrumbs #sub-menu-link {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    font-size: 0.9em;
+    /*background-image: url('../images/more_link.png');
+    background-repeat: no-repeat;*/ }
+  /* line 351, ../sass/kenstimpson.styles.scss */
+  .ks_breadcrumbs #sub-menu-link a {
+    width: 100%;
+    height: 20px;
+    display: inline-block; }
+  /* line 358, ../sass/kenstimpson.styles.scss */
+  .ks_breadcrumbs #sub-menu-link a:hover {
+    border: none; }
+
+/* line 372, ../sass/kenstimpson.styles.scss */
 .menu-level-3 .menu .leaf {
   list-style-type: none;
   list-style-image: none;
   list-style: none;
   font-size: 1.3em; }
-/* line 340, ../sass/kenstimpson.styles.scss */
+/* line 379, ../sass/kenstimpson.styles.scss */
 .menu-level-3 .menu {
   text-align: left;
   line-height: 2em; }
 
-/* line 347, ../sass/kenstimpson.styles.scss */
+/* line 386, ../sass/kenstimpson.styles.scss */
 .ks_bottom {
   background-color: #163251;
   color: #727272;
@@ -276,16 +302,16 @@ a.active {
     content: "";
     display: table;
     clear: both; }
-  /* line 356, ../sass/kenstimpson.styles.scss */
+  /* line 395, ../sass/kenstimpson.styles.scss */
   .ks_bottom a {
     color: #727272; }
-  /* line 360, ../sass/kenstimpson.styles.scss */
+  /* line 399, ../sass/kenstimpson.styles.scss */
   .ks_bottom .menu .leaf {
     list-style-type: none;
     list-style-image: none;
     list-style: none; }
 
-/* line 369, ../sass/kenstimpson.styles.scss */
+/* line 408, ../sass/kenstimpson.styles.scss */
 .ks_bottom_container {
   width: 70em;
   margin: auto; }
@@ -295,7 +321,7 @@ a.active {
     display: table;
     clear: both; }
 
-/* line 375, ../sass/kenstimpson.styles.scss */
+/* line 414, ../sass/kenstimpson.styles.scss */
 .ks_bottom_first {
   width: 32.20339%;
   float: left;
@@ -304,7 +330,7 @@ a.active {
   clear: none;
   border: 0px solid red; }
 
-/* line 380, ../sass/kenstimpson.styles.scss */
+/* line 419, ../sass/kenstimpson.styles.scss */
 .ks_bottom_centre {
   width: 32.20339%;
   float: left;
@@ -313,7 +339,7 @@ a.active {
   clear: none;
   border: 0px solid yellow; }
 
-/* line 385, ../sass/kenstimpson.styles.scss */
+/* line 424, ../sass/kenstimpson.styles.scss */
 .ks_bottom_second {
   width: 32.20339%;
   float: right;
@@ -327,25 +353,31 @@ a.active {
     display: table;
     clear: both; }
 
-/* line 393, ../sass/kenstimpson.styles.scss */
+/* line 432, ../sass/kenstimpson.styles.scss */
 .ks_content .block {
   /*mobile view*/
   color: #163251;
   /*tablet view*/
   /*desktop view*/
   padding: 5px;
-  font-size: 1em; }
-  /* line 409, ../sass/kenstimpson.styles.scss */
+  font-size: 1em;
+  margin-bottom: 10px; }
+  /* line 449, ../sass/kenstimpson.styles.scss */
   .ks_content .block .block__title {
     font-size: 2em;
     font-weight: 100;
-    padding-top: 0px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: #fff;
+    background-color: #163251;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    /*box-shadow: 5px 5px 10px 5px #ccc;*/
     margin-top: 0px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #eee; }
+    margin-bottom: 10px; }
 
-/* line 424, ../sass/kenstimpson.styles.scss */
+/* line 472, ../sass/kenstimpson.styles.scss */
 .ui-front.media-wrapper {
   z-index: 1002; }
 

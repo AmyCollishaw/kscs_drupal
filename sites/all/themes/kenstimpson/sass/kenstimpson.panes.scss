@@ -34,8 +34,34 @@
 {
 	padding: 0px;
 }
-#curr_image, #panels_tabs, #panels_tabs_container
+#curr_image, 
+#panels_tabs, 
+#panels_tabs_container
 {
 	border: none;
+	text-align: left;
 }
 
+
+.pane-menu-block-1
+{
+	
+	
+	.menu
+	{
+		margin: 0px;
+		padding-left: 0px;
+		text-align: left;
+	}
+	.menu .menu
+	{
+		padding-left: 15px;
+	}
+	
+	.menu li
+	{
+		list-style: none;
+		margin: 0px;
+		padding-left: 10px;
+	}
+}
