@@ -4,7 +4,7 @@ Error: File to import not found or unreadable: compass.
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/bourbon
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat
          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base
-        on line 6 of Z:/sites/website/Gold Linux/website_201703/drupal-7.54/sites/all/themes/kenstimpson/sass/kenstimpson.background.scss
+        on line 6 of Z:\sites\website\Gold Linux\website_201703\drupal-7.54\sites\all\themes\kenstimpson\sass\kenstimpson.background.scss
 
 1: /*******************************************************************************
 2:  * kenstimpson.background.scss
@@ -19,7 +19,7 @@ Error: File to import not found or unreadable: compass.
 11: @import "variables/**\/*";
 
 Backtrace:
-Z:/sites/website/Gold Linux/website_201703/drupal-7.54/sites/all/themes/kenstimpson/sass/kenstimpson.background.scss:6
+Z:\sites\website\Gold Linux\website_201703\drupal-7.54\sites\all\themes\kenstimpson\sass\kenstimpson.background.scss:6
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:67:in `rescue in import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:45:in `import'
 C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -56,4 +56,4 @@ C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: compass.\A        Load paths:\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/bourbon\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base\A         on line 6 of Z:/sites/website/Gold Linux/website_201703/drupal-7.54/sites/all/themes/kenstimpson/sass/kenstimpson.background.scss\A \A 1: /*******************************************************************************\A 2:  * kenstimpson.background.scss\A 3:  *\A 4:  * Styles for the Background images.\A 5:  ******************************************************************************/\A 6: @import \"compass\";\A 7: @import \"breakpoint\";\A 8: @import \"singularitygs\";\A 9: \A 10: // Globbing from within sub-folders only works with relative paths.\A 11: @import \"variables/**/*\";"; }
+  content: "Error: File to import not found or unreadable: compass.\A        Load paths:\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/bourbon\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/neat\A          C:/Program Files/Adobe/Adobe Dreamweaver CC 2017/Configuration/SassFrameworks/base\A         on line 6 of Z:\sites\website\Gold Linux\website_201703\drupal-7.54\sites\all\themes\kenstimpson\sass\kenstimpson.background.scss\A \A 1: /*******************************************************************************\A 2:  * kenstimpson.background.scss\A 3:  *\A 4:  * Styles for the Background images.\A 5:  ******************************************************************************/\A 6: @import \"compass\";\A 7: @import \"breakpoint\";\A 8: @import \"singularitygs\";\A 9: \A 10: // Globbing from within sub-folders only works with relative paths.\A 11: @import \"variables/**/*\";"; }

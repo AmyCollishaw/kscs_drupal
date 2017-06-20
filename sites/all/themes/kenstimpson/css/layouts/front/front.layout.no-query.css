@@ -3,35 +3,80 @@
  *
  * Styles for the Main layout.
  ******************************************************************************/
-/* line 17, ../../../sass/layouts/front/front.layout.scss */
-.ks_first_sidebar {
-  width: 23.72881%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none;
-  border: 0px solid red; }
+@media (min-width: 0px) and (max-width: 44em) {
+  /* line 15, ../../../sass/layouts/front/front.layout.scss */
+  .ks_first_sidebar,
+  .ks_second_sidebar,
+  .ks_centre {
+    margin-left: 10px;
+    margin-right: 10px; } }
+@media (min-width: 44em) {
+  /* line 27, ../../../sass/layouts/front/front.layout.scss */
+  .ks_first_sidebar {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    border: 0px solid red;
+    /*margin-left: 0px;*/ }
 
-/* line 22, ../../../sass/layouts/front/front.layout.scss */
-.ks_centre {
-  width: 40.67797%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 25.42373%;
-  clear: none;
-  border: 0px solid yellow;
-  font-size: 0.9em;
-  line-height: 1.5em; }
+  /* line 34, ../../../sass/layouts/front/front.layout.scss */
+  .ks_centre {
+    width: 49.15254%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+    border: 0px solid yellow;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    /*margin-left: 0px;*/ }
 
-/* line 29, ../../../sass/layouts/front/front.layout.scss */
-.ks_second_sidebar {
-  width: 32.20339%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
-  overflow: hidden;
-  *zoom: 1;
-  border: 0px solid green; }
+  /* line 43, ../../../sass/layouts/front/front.layout.scss */
+  .ks_second_sidebar {
+    width: 23.72881%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    overflow: hidden;
+    *zoom: 1;
+    border: 0px solid green;
+    /*margin-left: 0px;*/ } }
+@media (min-width: 70em) {
+  /* line 55, ../../../sass/layouts/front/front.layout.scss */
+  .ks_first_sidebar {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    border: 0px solid red;
+    /*margin-left: 0px;*/ }
+
+  /* line 62, ../../../sass/layouts/front/front.layout.scss */
+  .ks_centre {
+    width: 40.67797%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 25.42373%;
+    clear: none;
+    border: 0px solid yellow;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    /*margin-left: 0px;*/ }
+
+  /* line 71, ../../../sass/layouts/front/front.layout.scss */
+  .ks_second_sidebar {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    overflow: hidden;
+    *zoom: 1;
+    border: 0px solid green;
+    /*margin-left: 0px;*/ } }
 
 /*# sourceMappingURL=front.layout.no-query.css.map */

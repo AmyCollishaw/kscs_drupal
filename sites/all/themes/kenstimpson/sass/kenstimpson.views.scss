@@ -27,8 +27,8 @@
 {
 	.views-row
 	{
-		border-top: 1px solid #E0E0E0;
-		border-bottom: 1px solid #E0E0E0;
+		border-top: 1px solid #F09866;
+		border-bottom: 1px solid #F09866;
 		margin-bottom: 5px;
 
 		border-top-left-radius: 15px;
@@ -42,7 +42,7 @@
 	}
 	.event_date_container
 	{
-		border: 1px solid #CACACA;
+		border: 1px solid #FFB155;
 		text-align: center;
 		width: 50px;
 		float: left;
@@ -52,7 +52,7 @@
 		
 		.event_month
 		{
-			background-color:#073E5F;
+			background-color: #EA661C;
 			color: #fff;
 			font-size: .8em;
 			border-top-left-radius: 15px;
@@ -60,12 +60,12 @@
 		.event_date
 		{
 			font-size: 1.3em;
-			background-color: #E6F4FD;
+			background-color: #FFB155;
 		}
 		.event_day
 		{
 			font-size: .7em;
-			background-color: #9CB2BF;
+			background-color: #FFFFFF;
 			border-bottom-right-radius: 15px;
 		}
 	}
@@ -115,6 +115,9 @@
 	{
 		font-size: $h2;
 		font-weight: bold;
+		margin-top: 20px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #E7E7E7;
 	}
 	
 	.views-field-field-curr-topic-desc .views-label,
@@ -123,6 +126,38 @@
 	{
 		font-size: $h3;
 		font-weight: bold;
+		margin-top: 20px;
+		display: block;
+		
+	}
+	.field-content p 
+	{
+		margin: 0px;
+		padding: 0px;
+	}
+}
+
+.curr-contact-details
+{
+	border: 1px solid #ECECEC;
+	padding: 5px;
+	margin-bottom: 20px;
+	
+	.views-field-field-contact-name
+	{
+		font-weight: bold;
+	}
+	.views-field-field-contact-job-title
+	{
+		font-size: $smallerText;
+	}
+	.views-field-field-contact-email
+	{
+		font-size: $smallerText;
+	}
+	.views-field-field-contact-telephone
+	{
+		font-size: $smallerText;
 	}
 }
 
@@ -202,7 +237,7 @@
 	}
 }
 
-.view-display-id-page_1
+.policies-list
 {
 	line-height: 2.5em;
 	a

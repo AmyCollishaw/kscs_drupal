@@ -3,40 +3,41 @@
  *
  * Styles for the Main layout.
  ******************************************************************************/
-/* line 16, ../../../sass/layouts/main/main.layout.scss */
-.ks_content {
-  padding-left: 20px;
-  padding-right: 20px; }
+@media (min-width: 44em) {
+  /* line 16, ../../../sass/layouts/main/main.layout.scss */
+  .ks_content {
+    padding-left: 20px;
+    padding-right: 20px; }
 
-/* line 22, ../../../sass/layouts/main/main.layout.scss */
-.ks_first_sidebar {
-  width: 23.72881%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none;
-  border: 0px solid red;
-  margin-top: 55px; }
+  /* line 22, ../../../sass/layouts/main/main.layout.scss */
+  .ks_first_sidebar {
+    width: 23.72881%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none;
+    border: 0px solid red;
+    margin-top: 55px; }
 
-/* line 28, ../../../sass/layouts/main/main.layout.scss */
-.ks_centre {
-  width: 74.57627%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none;
-  border: 0px solid yellow;
-  font-size: 0.9em;
-  line-height: 1.5em;
-  padding-left: 20px;
-  overflow: hidden;
-  *zoom: 1; }
+  /* line 28, ../../../sass/layouts/main/main.layout.scss */
+  .ks_centre {
+    width: 74.57627%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    border: 0px solid yellow;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    padding-left: 20px;
+    overflow: hidden;
+    *zoom: 1; }
 
-/* line 38, ../../../sass/layouts/main/main.layout.scss */
-.ks_second_sidebar {
-  width: 100%;
-  overflow: hidden;
-  *zoom: 1;
-  border: 0px solid green; }
+  /* line 38, ../../../sass/layouts/main/main.layout.scss */
+  .ks_second_sidebar {
+    width: 100%;
+    overflow: hidden;
+    *zoom: 1;
+    border: 0px solid green; } }
 
 /*# sourceMappingURL=main.layout.no-query.css.map */

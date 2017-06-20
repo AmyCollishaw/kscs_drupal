@@ -3,7 +3,6 @@
  *
  * Styles for the Background images.
  ******************************************************************************/
-/* No files to import found in abstractions/**\/* */
 /* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
@@ -40,8 +39,12 @@ img, media {
 .ks_content {
   background-image: none; }
 
+/* line 51, ../sass/kenstimpson.background.scss */
+#background_quotes_1 {
+  display: none; }
+
 @media (min-width: 70em) {
-  /* line 58, ../sass/kenstimpson.background.scss */
+  /* line 61, ../sass/kenstimpson.background.scss */
   #background_left_top_bars {
     display: flex;
     z-index: -100;
@@ -53,7 +56,7 @@ img, media {
     background-image: url("../images/top_left_horizontal_bars.png");
     background-repeat: repeat-x; }
 
-  /* line 71, ../sass/kenstimpson.background.scss */
+  /* line 74, ../sass/kenstimpson.background.scss */
   #background_right_top_bars {
     display: flex;
     z-index: -100;
@@ -65,7 +68,7 @@ img, media {
     background-image: url("../images/top_right_horizontal_bars.png");
     background-repeat: repeat-x; }
 
-  /* line 83, ../sass/kenstimpson.background.scss */
+  /* line 86, ../sass/kenstimpson.background.scss */
   #background_left_vertical_bars {
     width: 283px;
     height: 362px;
@@ -78,7 +81,7 @@ img, media {
     overflow: visible;
     display: none; }
 
-  /* line 97, ../sass/kenstimpson.background.scss */
+  /* line 100, ../sass/kenstimpson.background.scss */
   #background_top_vertical_bar {
     display: flex;
     width: 14px;
@@ -90,13 +93,13 @@ img, media {
     background-image: url("../images/top_vertical_bar.png");
     background-repeat: repeat-y; }
 
-  /* line 109, ../sass/kenstimpson.background.scss */
+  /* line 112, ../sass/kenstimpson.background.scss */
   .ks_menu {
     background-image: url("../images/header_horizontal_bar.png");
     background-repeat: repeat-x;
     background-position: bottom; }
 
-  /* line 115, ../sass/kenstimpson.background.scss */
+  /* line 118, ../sass/kenstimpson.background.scss */
   #menu_left_vertical_bar {
     display: flex;
     background-image: url("../images/content_left_vertical_bar.png");
@@ -109,7 +112,7 @@ img, media {
     overflow: visible;
     z-index: 200; }
 
-  /* line 128, ../sass/kenstimpson.background.scss */
+  /* line 131, ../sass/kenstimpson.background.scss */
   #background_house_text {
     display: flex;
     background-image: url("../images/house_background.png");
@@ -121,7 +124,7 @@ img, media {
     left: 0px;
     top: 60px; }
 
-  /* line 140, ../sass/kenstimpson.background.scss */
+  /* line 143, ../sass/kenstimpson.background.scss */
   .ks_content {
     background-image: url("../images/menu_horizontal_bar.png");
     background-repeat: repeat-x;
@@ -130,8 +133,9 @@ img, media {
     overflow: hidden;
     *zoom: 1; }
 
-  /* line 150, ../sass/kenstimpson.background.scss */
+  /* line 153, ../sass/kenstimpson.background.scss */
   #background_quotes_1 {
+    display: block;
     height: 200px;
     width: 300px;
     padding: 20px 10px 5px 30px;
@@ -142,12 +146,12 @@ img, media {
     overflow: hidden;
     background-image: url("../images/side_quote_background.png");
     background-repeat: no-repeat; }
-    /* line 163, ../sass/kenstimpson.background.scss */
+    /* line 167, ../sass/kenstimpson.background.scss */
     #background_quotes_1 .views-field-field-quote-text {
       color: #aaa;
       font-size: 1.1em;
       line-height: 1.5em; }
-    /* line 169, ../sass/kenstimpson.background.scss */
+    /* line 173, ../sass/kenstimpson.background.scss */
     #background_quotes_1 .views-field-field-quote-author {
       color: #666;
       font-size: 0.9em;

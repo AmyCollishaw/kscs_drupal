@@ -3,19 +3,20 @@
  *
  * Styles for the Single Column layout.
  ******************************************************************************/
-/* line 18, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
-.ks_centre {
-  width: 83.05085%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 8.47458%;
-  clear: none;
-  border: 0px solid yellow;
-  font-size: 0.9em;
-  line-height: 1.5em;
-  /*padding-left: 30px;
-  padding-right: 30px;*/
-  overflow: hidden;
-  *zoom: 1; }
+@media (min-width: 44em) {
+  /* line 18, ../../../sass/layouts/singlecolumn/singlecolumn.layout.scss */
+  .ks_centre {
+    width: 83.05085%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 8.47458%;
+    clear: none;
+    border: 0px solid yellow;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    /*padding-left: 30px;
+    padding-right: 30px;*/
+    overflow: hidden;
+    *zoom: 1; } }
 
 /*# sourceMappingURL=singlecolumn.layout.no-query.css.map */

@@ -25,20 +25,41 @@
 #off-canvas .mm-panels
 {
 	background: $ksBlue;
+	color: #fff;
+	a 
+	{
+		color: #fff;
+	}
 }
+
 
 #block-responsive-menu-toggle
 {
-	color: black;
 	background-color: $ksBlue;
-	position: absolute;
-	top: -2px;
-	right: 0px;
-	width: 40px;
-	overflow: hidden;
-	height: 30px;
 	margin-bottom: 5px;
+	.responsive-menu-toggle-icon span.label
+	{
+		font-size: 20px;
+		top: 5px;
+	}
 }
+
+	/*tab view upwards*/
+	@include breakpoint($tab, true)
+	{
+		#block-responsive-menu-toggle
+		{
+			color: black;
+			background-color: $ksBlue;
+			position: absolute;
+			top: -2px;
+			right: 0px;
+			width: 40px;
+			overflow: hidden;
+			height: 30px;
+			margin-bottom: 5px;
+		}
+	}
 
 /*Easy Breadcrumbs*/
 
@@ -48,4 +69,15 @@
 	text-align: right;
 	padding-right: 10px;
 	width: 90%;
+}
+
+/*Facebook Feed*/
+.facebook-feed-message
+{
+	line-height: 1.5em;
+	img 
+	{
+		margin-top: 10px;
+		text-align: center;
+	}
 }
