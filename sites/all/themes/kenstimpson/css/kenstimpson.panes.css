@@ -1,38 +1,69 @@
-/* No files to import found in abstractions/**\/* */
 /* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
 
 /* line 25, ../sass/kenstimpson.panes.scss */
 .curriculum_container .panel-pane {
+  /*border: 1px solid #ddd;
+  border-bottom-right-radius: 15px;
+  padding: 10px;*/
   border: 1px solid #ddd;
   border-bottom-right-radius: 15px;
-  margin-bottom: 10px;
-  padding: 10px; }
+  border-top-left-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px; }
 
-/* line 33, ../sass/kenstimpson.panes.scss */
+/* line 36, ../sass/kenstimpson.panes.scss */
 #curr_image {
   padding: 0px; }
 
-/* line 37, ../sass/kenstimpson.panes.scss */
+/* line 40, ../sass/kenstimpson.panes.scss */
 #curr_image,
 #panels_tabs,
 #panels_tabs_container {
   border: none;
   text-align: left; }
 
-/* line 50, ../sass/kenstimpson.panes.scss */
+/* line 53, ../sass/kenstimpson.panes.scss */
 .pane-menu-block-1 .menu {
   margin: 0px;
   padding-left: 0px;
   text-align: left; }
-/* line 56, ../sass/kenstimpson.panes.scss */
+/* line 59, ../sass/kenstimpson.panes.scss */
 .pane-menu-block-1 .menu .menu {
   padding-left: 15px; }
-/* line 61, ../sass/kenstimpson.panes.scss */
+/* line 64, ../sass/kenstimpson.panes.scss */
 .pane-menu-block-1 .menu li {
   list-style: none;
   margin: 0px;
   padding-left: 10px; }
+
+/* line 72, ../sass/kenstimpson.panes.scss */
+#panels_tabs {
+  padding-left: 20px; }
+
+/* line 76, ../sass/kenstimpson.panes.scss */
+.pane-panels-ajax-tab-tabs ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none; }
+
+/* line 85, ../sass/kenstimpson.panes.scss */
+.panels-ajax-tab li a {
+  display: inline-block;
+  float: left;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  margin-right: 1px;
+  padding: 5px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 5px;
+  font-weight: bold;
+  background-color: #eee; }
+
+/* line 100, ../sass/kenstimpson.panes.scss */
+.panels-ajax-tab li.active a {
+  background-color: #979797; }
 
 /*# sourceMappingURL=kenstimpson.panes.css.map */

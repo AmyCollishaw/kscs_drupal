@@ -43,6 +43,9 @@
 	<?php } ?>-->
 
 	<div class="ks_content">
+		<?php if($page['sidebar_second']) { ?>
+			<div class="ks_second_sidebar"><?php echo render($page['sidebar_second']); ?></div>
+		<?php } ?>
 		<?php if($page['sidebar_first']) { ?>
 			<div class="ks_first_sidebar"><?php echo render($page['sidebar_first']); ?></div>
 		<?php } ?>
@@ -58,9 +61,7 @@
 			<?php print render($page['content']); ?>
 			<?php print $feed_icons; ?>
 		</div>
-		<?php if($page['sidebar_second']) { ?>
-			<div class="ks_second_sidebar"><?php echo render($page['sidebar_second']); ?></div>
-		<?php } ?>			
+					
 	</div>
 	
 

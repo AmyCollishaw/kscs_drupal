@@ -1,0 +1,9 @@
+@import "../variables/**/*";
+
+@mixin rounded-box
+{
+	border: 1px solid $boxColour;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 15px;
+	padding: 10px;
+}

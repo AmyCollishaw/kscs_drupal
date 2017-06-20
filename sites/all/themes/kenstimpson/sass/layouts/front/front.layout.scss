@@ -10,6 +10,16 @@
 // Globbing from within sub-folders only works with relative paths.
 @import "../../variables/**/*";
 
+@include breakpoint((min-width 0px) (max-width $tab))
+{
+	.ks_first_sidebar,
+	.ks_second_sidebar,
+	.ks_centre
+	{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
 
 
 @include breakpoint($tab, true)
@@ -18,6 +28,36 @@
 	{
 		@include grid-span(3,1);
 		border: 0px solid red;
+		/*margin-left: 0px;*/
+
+	}
+	.ks_centre
+	{
+		@include grid-span(6, 4);
+		border: 0px solid yellow;
+		font-size: $smallerText;
+		line-height: 1.5em;
+		/*margin-left: 0px;*/
+
+	}
+	.ks_second_sidebar
+	{
+		@include grid-span(3, 10);	
+		@include clearfix;
+		border: 0px solid green;
+		/*margin-left: 0px;*/
+
+	}
+}
+
+@include breakpoint($desk, true)
+{
+	.ks_first_sidebar
+	{
+		@include grid-span(3,1);
+		border: 0px solid red;
+		/*margin-left: 0px;*/
+
 	}
 	.ks_centre
 	{
@@ -25,12 +65,16 @@
 		border: 0px solid yellow;
 		font-size: $smallerText;
 		line-height: 1.5em;
+		/*margin-left: 0px;*/
+
 	}
 	.ks_second_sidebar
 	{
 		@include grid-span(4, 9);	
 		@include clearfix;
 		border: 0px solid green;
+		/*margin-left: 0px;*/
+
 	}
 }
 

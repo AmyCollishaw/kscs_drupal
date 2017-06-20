@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA;;;;gFAIgF;;AAa/E,UACA;EC+EG,KAAY,EC5EN,SAAqD;ED4E3D,KAAY,ECnER,IAAU;EDmEd,YAAY,ECjDmC,KAAK;EDiDpD,WAAY,EAAE,QAAM;EAApB,KAAY,ECpB0B,IAAI;EFxD5C,MAAM,EAAE,gBAAgB;EACxB,SAAS,EGrBG,KAAI;EHsBhB,WAAW,EAAE,KAAK;EAClB;wBACsB;EIbtB,QAAQ,EAAE,MAAM;ECiBd,KAAK,EAAE,CAAC",
-"sources": ["../../../sass/layouts/singlecolumn/singlecolumn.layout.scss","../../../../../../../../../../lib/gems/2.1.0/gems/singularitygs-1.7.1/stylesheets/singularitygs/_api.scss","../../../../../../../../../../lib/gems/2.1.0/gems/singularitygs-1.7.1/stylesheets/singularitygs/api/_isolation.scss","../../../sass/variables/_typography.scss","../../../../../../../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss","../../../../../../../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_hacks.scss"],
+"mappings": "AAAA;;;;gFAIgF;AC4D5E,wBAAwB;;ED/C3B,UACA;IE+EG,KAAY,EC5EN,SAAqD;ID4E3D,KAAY,ECnER,IAAU;IDmEd,YAAY,ECjDmC,KAAK;IDiDpD,WAAY,EAAE,QAAM;IAApB,KAAY,ECpB0B,IAAI;IHxD5C,MAAM,EAAE,gBAAgB;IACxB,SAAS,EIpBG,KAAI;IJqBhB,WAAW,EAAE,KAAK;IAClB;0BACsB;IKbtB,QAAQ,EAAE,MAAM;ICiBd,KAAK,EAAE,CAAC",
+"sources": ["../../../sass/layouts/singlecolumn/singlecolumn.layout.scss","../../../../../../../../../../lib/gems/2.1.0/gems/breakpoint-2.7.1/stylesheets/_breakpoint.scss","../../../../../../../../../../lib/gems/2.1.0/gems/singularitygs-1.7.1/stylesheets/singularitygs/_api.scss","../../../../../../../../../../lib/gems/2.1.0/gems/singularitygs-1.7.1/stylesheets/singularitygs/api/_isolation.scss","../../../sass/variables/_typography.scss","../../../../../../../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_clearfix.scss","../../../../../../../../../../lib/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/general/_hacks.scss"],
 "names": [],
 "file": "singlecolumn.layout.no-query.css"
 }
