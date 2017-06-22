@@ -110,20 +110,37 @@ img, media {
   .curr-contact-details .views-field-field-contact-telephone {
     font-size: 0.9em; }
 
+/*POST 16 COURSE LIST*/
+/* line 167, ../sass/kenstimpson.views.scss */
+.p16-course-list-page-view h3 {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+/* line 173, ../sass/kenstimpson.views.scss */
+.p16-course-list-page-view .views-field-title a:link {
+  border-bottom: 1px dashed #ccc;
+  width: 300px;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+/* line 181, ../sass/kenstimpson.views.scss */
+.p16-course-list-page-view .views-field-title a:visited {
+  border-bottom: 1px dashed #ccc; }
+
 /*POST 16 PAGE*/
-/* line 166, ../sass/kenstimpson.views.scss */
+/* line 187, ../sass/kenstimpson.views.scss */
 .node-post-16-course-information img {
   float: right; }
 
-/* line 170, ../sass/kenstimpson.views.scss */
+/* line 191, ../sass/kenstimpson.views.scss */
 .view-p16-courses {
   position: relative; }
 
-/* line 174, ../sass/kenstimpson.views.scss */
+/* line 195, ../sass/kenstimpson.views.scss */
 .view-p16-courses .views-field-field-p16-course-image {
   float: right; }
 
-/* line 178, ../sass/kenstimpson.views.scss */
+/* line 199, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-field-title {
   position: relative;
   font-size: 3em;
@@ -139,19 +156,19 @@ img, media {
   padding-right: 5px;
   z-index: 100; }
 
-/* line 194, ../sass/kenstimpson.views.scss */
+/* line 215, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-level,
 .p16-course-page-view .views-label-field-p16-duration {
   float: left; }
 
-/* line 201, ../sass/kenstimpson.views.scss */
+/* line 222, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-level,
 .p16-course-page-view .views-label-field-p16-duration,
 .p16-course-page-view .views-label-field-p16-qualification,
 .p16-course-page-view .views-label-field-p16-entry-requirements {
   font-weight: bold; }
 
-/* line 211, ../sass/kenstimpson.views.scss */
+/* line 232, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-what-will-i-learn-,
 .p16-course-page-view .views-label-field-p16-further-course-content,
 .p16-course-page-view .views-label-field-p16-enrichment-activities,
@@ -164,37 +181,43 @@ img, media {
   clear: both; }
 
 /*POLICIES BLOCK*/
-/* line 227, ../sass/kenstimpson.views.scss */
+/* line 248, ../sass/kenstimpson.views.scss */
 #block-views-policies-block .field-content a {
   line-height: 1.5em;
   padding-right: 5px; }
-/* line 233, ../sass/kenstimpson.views.scss */
+/* line 254, ../sass/kenstimpson.views.scss */
 #block-views-policies-block .policy_review_date {
   font-size: 0.7em;
   color: #4B4B4B; }
 
-/* line 240, ../sass/kenstimpson.views.scss */
-.policies-list {
+/* line 261, ../sass/kenstimpson.views.scss */
+.ks_content .ks_centre .policies-list {
   line-height: 2.5em; }
-  /* line 243, ../sass/kenstimpson.views.scss */
-  .policies-list a {
+  /* line 264, ../sass/kenstimpson.views.scss */
+  .ks_content .ks_centre .policies-list a:link {
     font-size: 1.1em;
     display: inline-block;
     width: 350px;
     border-bottom: 1px dashed #ccc; }
-  /* line 250, ../sass/kenstimpson.views.scss */
-  .policies-list .policy_review_date {
+  /* line 271, ../sass/kenstimpson.views.scss */
+  .ks_content .ks_centre .policies-list a:hover {
+    border-bottom: 1px dashed #2B4F8F; }
+  /* line 275, ../sass/kenstimpson.views.scss */
+  .ks_content .ks_centre .policies-list a:visited {
+    border-bottom: 1px dashed #ccc; }
+  /* line 279, ../sass/kenstimpson.views.scss */
+  .ks_content .ks_centre .policies-list .policy_review_date {
     font-size: 0.9em;
     color: #A9A9A9; }
 
 /*STUDENT COUNCIL PAGE*/
-/* line 260, ../sass/kenstimpson.views.scss */
+/* line 289, ../sass/kenstimpson.views.scss */
 .view-student-council .views-view-grid {
   width: 100%;
   border-collapse: separate;
   padding: 20px;
   border-spacing: 20px; }
-  /* line 268, ../sass/kenstimpson.views.scss */
+  /* line 297, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid td {
     width: 50%;
     padding: 30px;
@@ -202,48 +225,48 @@ img, media {
     text-align: center;
     font-size: 2em;
     border-bottom-right-radius: 15px; }
-    /* line 277, ../sass/kenstimpson.views.scss */
+    /* line 306, ../sass/kenstimpson.views.scss */
     .view-student-council .views-view-grid td a {
       text-decoration: none;
       width: 100%; }
-    /* line 282, ../sass/kenstimpson.views.scss */
+    /* line 311, ../sass/kenstimpson.views.scss */
     .view-student-council .views-view-grid td a:hover {
       border: 0px;
       text-decoration: none; }
-  /* line 285, ../sass/kenstimpson.views.scss */
+  /* line 314, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-1 .col-1 {
     background-color: aquamarine; }
-  /* line 289, ../sass/kenstimpson.views.scss */
+  /* line 318, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-1 .col-2 {
     background-color: forestgreen; }
-  /* line 293, ../sass/kenstimpson.views.scss */
+  /* line 322, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-2 .col-1 {
     background-color: yellow; }
-  /* line 297, ../sass/kenstimpson.views.scss */
+  /* line 326, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-2 .col-2 {
     background-color: coral; }
-  /* line 301, ../sass/kenstimpson.views.scss */
+  /* line 330, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-3 .col-1 {
     background-color: mediumpurple; }
-  /* line 305, ../sass/kenstimpson.views.scss */
+  /* line 334, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-3 .col-2 {
     background-color: dodgerblue; }
 
 /*GOVERNORS*/
-/* line 315, ../sass/kenstimpson.views.scss */
+/* line 344, ../sass/kenstimpson.views.scss */
 .view-governors .views-row {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px; }
-/* line 320, ../sass/kenstimpson.views.scss */
+/* line 349, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-title {
   font-size: 1.2em;
   font-weight: bold; }
-/* line 325, ../sass/kenstimpson.views.scss */
+/* line 354, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-field-governor-role,
 .view-governors .views-field-field-governor-profession,
 .view-governors .views-field-field-governor-why {
   margin-bottom: 10px; }
-  /* line 330, ../sass/kenstimpson.views.scss */
+  /* line 359, ../sass/kenstimpson.views.scss */
   .view-governors .views-field-field-governor-role .governor_role_label,
   .view-governors .views-field-field-governor-role .governor_profession_label,
   .view-governors .views-field-field-governor-role .views-label-field-governor-why,
@@ -254,7 +277,7 @@ img, media {
   .view-governors .views-field-field-governor-why .governor_profession_label,
   .view-governors .views-field-field-governor-why .views-label-field-governor-why {
     font-weight: bold; }
-  /* line 336, ../sass/kenstimpson.views.scss */
+  /* line 365, ../sass/kenstimpson.views.scss */
   .view-governors .views-field-field-governor-role .governor_role_value,
   .view-governors .views-field-field-governor-role .governor_profession_value,
   .view-governors .views-field-field-governor-profession .governor_role_value,
@@ -262,16 +285,16 @@ img, media {
   .view-governors .views-field-field-governor-why .governor_role_value,
   .view-governors .views-field-field-governor-why .governor_profession_value {
     /*font-style: italic;*/ }
-/* line 345, ../sass/kenstimpson.views.scss */
+/* line 374, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-field-governor-why .field-content {
   line-height: 2em; }
-/* line 350, ../sass/kenstimpson.views.scss */
+/* line 379, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-field-image {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
   display: inline-block; }
-/* line 357, ../sass/kenstimpson.views.scss */
+/* line 386, ../sass/kenstimpson.views.scss */
 .view-governors .governors_clear {
   clear: both;
   height: 0px; }
