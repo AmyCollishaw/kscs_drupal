@@ -29,9 +29,12 @@
 	padding: 10px;*/
 	@include rounded-box;
 	margin-bottom: 10px;
-	
-	
-	
+}
+
+.curriculum_container .title_small h2
+{
+	font-size: 1.1em;
+	font-weight: bold;
 }
 #curr_image
 {
@@ -81,7 +84,6 @@
 }
 .panels-ajax-tab li
 {
-	
 	a
 	{
 		display: inline-block;

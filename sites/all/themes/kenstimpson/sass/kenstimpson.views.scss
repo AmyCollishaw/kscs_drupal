@@ -161,7 +161,28 @@
 	}
 }
 
-
+/*POST 16 COURSE LIST*/
+.p16-course-list-page-view
+{
+	h3
+	{
+		margin-top: 40px;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+	.views-field-title a:link
+	{
+		border-bottom: 1px dashed #ccc;
+		width: 300px;
+		display: block;
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+	.views-field-title a:visited
+	{
+		border-bottom: 1px dashed #ccc;
+	}
+}
 /*POST 16 PAGE*/
 .node-post-16-course-information img
 {
@@ -237,14 +258,22 @@
 	}
 }
 
-.policies-list
+.ks_content .ks_centre .policies-list
 {
 	line-height: 2.5em;
-	a
+	a:link
 	{
 		font-size: $mainLargerText;
 		display: inline-block;
 		width: 350px;
+		border-bottom: 1px dashed #ccc;
+	}
+	a:hover
+	{
+		border-bottom: 1px dashed $mainLinkHoverColour;
+	}
+	a:visited
+	{
 		border-bottom: 1px dashed #ccc;
 	}
 	.policy_review_date
