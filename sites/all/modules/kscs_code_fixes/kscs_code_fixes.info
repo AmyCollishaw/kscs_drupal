@@ -1,0 +1,5 @@
+name = KSCS Code Fixes
+description = a place to put custom code fixes that are required to be in a module
+core = 7.x
+
+
