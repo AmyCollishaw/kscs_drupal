@@ -1,0 +1,16 @@
+<?php
+//Override breadcrumbs on certain pages
+function kscs_code_fixes_easy_breadcrumb_breadcrumb_alter(&$breadcrumb) {
+  // Remove the last breadcrumb element for node pages.
+  $args = arg();
+
+  if($breadcrumb[2][url]=="curriculum/courses")
+  {
+	  $breadcrumb[2][content] = "Courses";
+  }
+	if($breadcrumb[2][url]=="curriculum/overview")
+  {
+	  $breadcrumb[2][content] = "Overview";
+  }
+
+}

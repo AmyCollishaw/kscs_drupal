@@ -173,16 +173,15 @@ function facebook_pull_settings($form_state) {
     '#description' => t('How many posts to show in the box by default. If you have not entered a default limit here then it will default to 10.'),
   );
 	
-	$form['facebook_pull_fields'] = array(
-    '#type' => 'checkboxes',
+	  $form['facebook_pull_fields'] = array(
+ '#type' => 'checkboxes',
     '#title' => t('Fields'),
     '#options' => array(
      'picture' => 'picture',
-		'full_picture' => 'full_picture',
-      'message' => 'message',
+		  'message' => 'message',
       'from' => 'from',
-      'type' => 'type',
-      'created_time' => 'created_time',
+     'type' => 'type',
+		  'created_time' => 'created_time',
       'link' => 'link',
       'description' => 'description',
       'name' => 'name',
@@ -355,13 +354,12 @@ function _facebook_pull_render_block() {
   $graph_id = variable_get('facebook_pull_graph_id', '');
   $type = variable_get('facebook_pull_object_type', '');
   $limit = variable_get('facebook_pull_limit', '');
-  $fields = implode(',', array_filter(variable_get('facebook_pull_fields', array())));
-
-   $options = array(
-     'limit' => $limit,
-     'locale' => $language->language,
-    'fields' => $fields,
-   );
+	$fields = implode(',', array_filter(variable_get('facebook_pull_fields', array())));
+  $options = array(
+    'limit' => $limit,
+    'locale' => $language->language,
+	  'fields' => $fields,
+  );
 
   return facebook_pull_render($graph_id, $type, $app_id, $app_secret, $options);
 }
@@ -375,14 +373,11 @@ function _facebook_pull_render_block() {
 function facebook_pull_preprocess_facebook_pull_feed(&$variables) {
   if ($variables['items']) {
     global $is_https;
-
     foreach ($variables['items'] as &$item) {
-		
       if (property_exists($item, 'from')) {
         $from = &$item->from;
         $scheme = $is_https ? 'https' : 'http';
         $from->picture = "$scheme://graph.facebook.com/$from->id/picture";
-
         if (isset($from->name)) {
           $from->name = check_plain($from->name);
         }
@@ -404,9 +399,6 @@ function facebook_pull_preprocess_facebook_pull_feed(&$variables) {
       }
       if (isset($item->picture)) {
         $item->picture = check_url($item->picture);
-      }
-	if (isset($item->full_picture)) {
-        $item->full_picture = check_url($item->full_picture);
       }
     }
   }
