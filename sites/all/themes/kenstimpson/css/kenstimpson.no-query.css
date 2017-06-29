@@ -484,8 +484,19 @@ a:hover {
   line-height: 63px;
   padding-top: 2px; }
 
-/*BLOCKY MENUS*/
 /* line 578, ../sass/kenstimpson.styles.scss */
+.curriculum_container .curriculum_first .ignore_drops p:nth-of-type(1):first-letter {
+  color: #163251;
+  float: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  padding-top: inherit;
+  padding-right: inherit;
+  padding-left: inherit; }
+
+/*BLOCKY MENUS*/
+/* line 592, ../sass/kenstimpson.styles.scss */
 .link_blob {
   border: 0px solid #C7C7C7;
   border-bottom-right-radius: 30px;
@@ -500,56 +511,56 @@ a:hover {
   background-repeat: no-repeat;
   position: relative; }
 
-/* line 594, ../sass/kenstimpson.styles.scss */
+/* line 608, ../sass/kenstimpson.styles.scss */
 .link_blob:hover {
   box-shadow: 3px 3px 10px 3px #9e9e9e;
   border: 0px solid #9e9e9e; }
 
-/* line 601, ../sass/kenstimpson.styles.scss */
+/* line 615, ../sass/kenstimpson.styles.scss */
 .link_blob .link_title {
   font-size: 1.6em;
   text-align: left;
   color: #fff; }
 
-/* line 607, ../sass/kenstimpson.styles.scss */
+/* line 621, ../sass/kenstimpson.styles.scss */
 .link_blob .link_image {
   position: absolute;
   bottom: 0px;
   right: 15px;
   display: none; }
 
-/* line 613, ../sass/kenstimpson.styles.scss */
+/* line 627, ../sass/kenstimpson.styles.scss */
 .link_blob a {
   display: block;
   width: 100%;
   height: 75px; }
 
-/* line 620, ../sass/kenstimpson.styles.scss */
+/* line 634, ../sass/kenstimpson.styles.scss */
 .link_blob a:hover, .ks_content .ks_centre .link_blob a:hover {
   border-bottom: none;
   text-decoration: none; }
 
-/* line 627, ../sass/kenstimpson.styles.scss */
+/* line 641, ../sass/kenstimpson.styles.scss */
 .links_container .blobOrange {
   background-color: #FF8C05; }
 
-/* line 631, ../sass/kenstimpson.styles.scss */
+/* line 645, ../sass/kenstimpson.styles.scss */
 .links_container .blobPurple {
   background-color: #924EB9; }
 
-/* line 635, ../sass/kenstimpson.styles.scss */
+/* line 649, ../sass/kenstimpson.styles.scss */
 .links_container .blobKsBlue {
   background-color: #163251; }
 
-/* line 639, ../sass/kenstimpson.styles.scss */
+/* line 653, ../sass/kenstimpson.styles.scss */
 .links_container .blobBlue {
   background-color: #29A7EF; }
 
-/* line 643, ../sass/kenstimpson.styles.scss */
+/* line 657, ../sass/kenstimpson.styles.scss */
 .links_container .blobGreen {
   background-color: #5D9E28; }
 
-/* line 647, ../sass/kenstimpson.styles.scss */
+/* line 661, ../sass/kenstimpson.styles.scss */
 .links_container .blobRed {
   background-color: #D73A31; }
 

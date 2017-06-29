@@ -574,6 +574,20 @@ a:hover
 }
 
 
+
+.curriculum_container .curriculum_first .ignore_drops p:nth-of-type(1):first-letter
+{
+	color: $mainFontColour;
+	float: inherit;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: inherit;
+	padding-top: inherit;
+	padding-right: inherit;
+	padding-left: inherit;
+}
+
+
 /*BLOCKY MENUS*/
 .link_blob
 	{
