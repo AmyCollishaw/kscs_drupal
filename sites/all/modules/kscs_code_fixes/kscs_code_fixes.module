@@ -3,14 +3,14 @@
 function kscs_code_fixes_easy_breadcrumb_breadcrumb_alter(&$breadcrumb) {
   // Remove the last breadcrumb element for node pages.
   $args = arg();
+	//print_r($breadcrumb);
 
-  if($breadcrumb[2][url]=="curriculum/courses")
+  if($breadcrumb[2]['url']=="curriculum/courses")
   {
-	  $breadcrumb[2][content] = "Courses";
+	  $breadcrumb[2]['content'] = "Courses";
   }
-	if($breadcrumb[2][url]=="curriculum/overview")
+  if($breadcrumb[2]['url']=="curriculum/overview")
   {
-	  $breadcrumb[2][content] = "Overview";
+	  $breadcrumb[2]['content'] = "Overview";
   }
-
 }

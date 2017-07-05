@@ -48,38 +48,44 @@ img, media {
   font-size: 0.7em;
   text-align: right; }
 
-/* line 81, ../sass/kenstimpson.views.scss */
-.block--views-calendar-block-1 .view-calendar li, .view-display-id-page_4 li {
-  list-style: none; }
-/* line 85, ../sass/kenstimpson.views.scss */
-.block--views-calendar-block-1 .view-calendar .date-prev, .view-display-id-page_4 .date-prev {
-  float: left;
-  position: absolute;
-  right: auto; }
-/* line 91, ../sass/kenstimpson.views.scss */
-.block--views-calendar-block-1 .view-calendar .date-next, .view-display-id-page_4 .date-next {
-  float: right;
-  position: absolute; }
+/* line 79, ../sass/kenstimpson.views.scss */
+.block--views-calendar-block-1 .view-calendar, .view-display-id-page_4 {
+  border: 1px solid #ddd;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 10px; }
+  /* line 81, ../sass/kenstimpson.views.scss */
+  .block--views-calendar-block-1 .view-calendar li, .view-display-id-page_4 li {
+    list-style: none; }
+  /* line 85, ../sass/kenstimpson.views.scss */
+  .block--views-calendar-block-1 .view-calendar .date-prev, .view-display-id-page_4 .date-prev {
+    float: left;
+    position: absolute;
+    right: auto; }
+  /* line 91, ../sass/kenstimpson.views.scss */
+  .block--views-calendar-block-1 .view-calendar .date-next, .view-display-id-page_4 .date-next {
+    float: right;
+    position: absolute; }
 
 /*CURRICULUM PAGE*/
-/* line 101, ../sass/kenstimpson.views.scss */
+/* line 103, ../sass/kenstimpson.views.scss */
 .ks_centre .view-curriculum {
   clear: both;
   /*border: 1px solid #ccc;
   border-bottom-right-radius: 15px;
   padding: 10px;*/
   margin-bottom: 10px; }
-  /* line 109, ../sass/kenstimpson.views.scss */
+  /* line 111, ../sass/kenstimpson.views.scss */
   .ks_centre .view-curriculum .views-row {
     margin-bottom: 20px; }
-  /* line 114, ../sass/kenstimpson.views.scss */
+  /* line 116, ../sass/kenstimpson.views.scss */
   .ks_centre .view-curriculum .views-field-field-curr-topic {
     font-size: 1.2em;
     font-weight: bold;
     margin-top: 20px;
     padding-bottom: 10px;
     border-bottom: 1px solid #E7E7E7; }
-  /* line 123, ../sass/kenstimpson.views.scss */
+  /* line 125, ../sass/kenstimpson.views.scss */
   .ks_centre .view-curriculum .views-field-field-curr-topic-desc .views-label,
   .ks_centre .view-curriculum .views-field-field-curr-topic-assess .views-label,
   .ks_centre .view-curriculum .views-field-field-curr-topic-homework .views-label {
@@ -87,60 +93,60 @@ img, media {
     font-weight: bold;
     margin-top: 20px;
     display: block; }
-  /* line 133, ../sass/kenstimpson.views.scss */
+  /* line 135, ../sass/kenstimpson.views.scss */
   .ks_centre .view-curriculum .field-content p {
     margin: 0px;
     padding: 0px; }
 
-/* line 140, ../sass/kenstimpson.views.scss */
+/* line 142, ../sass/kenstimpson.views.scss */
 .curr-contact-details {
   border: 1px solid #ECECEC;
   padding: 5px;
   margin-bottom: 20px; }
-  /* line 146, ../sass/kenstimpson.views.scss */
+  /* line 148, ../sass/kenstimpson.views.scss */
   .curr-contact-details .views-field-field-contact-name {
     font-weight: bold; }
-  /* line 150, ../sass/kenstimpson.views.scss */
+  /* line 152, ../sass/kenstimpson.views.scss */
   .curr-contact-details .views-field-field-contact-job-title {
     font-size: 0.9em; }
-  /* line 154, ../sass/kenstimpson.views.scss */
+  /* line 156, ../sass/kenstimpson.views.scss */
   .curr-contact-details .views-field-field-contact-email {
     font-size: 0.9em; }
-  /* line 158, ../sass/kenstimpson.views.scss */
+  /* line 160, ../sass/kenstimpson.views.scss */
   .curr-contact-details .views-field-field-contact-telephone {
     font-size: 0.9em; }
 
 /*POST 16 COURSE LIST*/
-/* line 167, ../sass/kenstimpson.views.scss */
+/* line 169, ../sass/kenstimpson.views.scss */
 .p16-course-list-page-view h3 {
   margin-top: 40px;
   margin-bottom: 0px;
   padding-bottom: 0px; }
-/* line 173, ../sass/kenstimpson.views.scss */
+/* line 175, ../sass/kenstimpson.views.scss */
 .p16-course-list-page-view .views-field-title a:link {
   border-bottom: 1px dashed #ccc;
   width: 300px;
   display: block;
   padding-bottom: 10px;
   padding-top: 10px; }
-/* line 181, ../sass/kenstimpson.views.scss */
+/* line 183, ../sass/kenstimpson.views.scss */
 .p16-course-list-page-view .views-field-title a:visited {
   border-bottom: 1px dashed #ccc; }
 
 /*POST 16 PAGE*/
-/* line 187, ../sass/kenstimpson.views.scss */
+/* line 189, ../sass/kenstimpson.views.scss */
 .node-post-16-course-information img {
   float: right; }
 
-/* line 191, ../sass/kenstimpson.views.scss */
+/* line 193, ../sass/kenstimpson.views.scss */
 .view-p16-courses {
   position: relative; }
 
-/* line 195, ../sass/kenstimpson.views.scss */
+/* line 197, ../sass/kenstimpson.views.scss */
 .view-p16-courses .views-field-field-p16-course-image {
   float: right; }
 
-/* line 199, ../sass/kenstimpson.views.scss */
+/* line 201, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-field-title {
   position: relative;
   font-size: 3em;
@@ -156,19 +162,19 @@ img, media {
   padding-right: 5px;
   z-index: 100; }
 
-/* line 215, ../sass/kenstimpson.views.scss */
+/* line 217, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-level,
 .p16-course-page-view .views-label-field-p16-duration {
   float: left; }
 
-/* line 222, ../sass/kenstimpson.views.scss */
+/* line 224, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-level,
 .p16-course-page-view .views-label-field-p16-duration,
 .p16-course-page-view .views-label-field-p16-qualification,
 .p16-course-page-view .views-label-field-p16-entry-requirements {
   font-weight: bold; }
 
-/* line 232, ../sass/kenstimpson.views.scss */
+/* line 234, ../sass/kenstimpson.views.scss */
 .p16-course-page-view .views-label-field-p16-what-will-i-learn-,
 .p16-course-page-view .views-label-field-p16-further-course-content,
 .p16-course-page-view .views-label-field-p16-enrichment-activities,
@@ -181,43 +187,43 @@ img, media {
   clear: both; }
 
 /*POLICIES BLOCK*/
-/* line 248, ../sass/kenstimpson.views.scss */
+/* line 250, ../sass/kenstimpson.views.scss */
 #block-views-policies-block .field-content a {
   line-height: 1.5em;
   padding-right: 5px; }
-/* line 254, ../sass/kenstimpson.views.scss */
+/* line 256, ../sass/kenstimpson.views.scss */
 #block-views-policies-block .policy_review_date {
   font-size: 0.7em;
   color: #4B4B4B; }
 
-/* line 261, ../sass/kenstimpson.views.scss */
+/* line 263, ../sass/kenstimpson.views.scss */
 .ks_content .ks_centre .policies-list {
   line-height: 2.5em; }
-  /* line 264, ../sass/kenstimpson.views.scss */
+  /* line 266, ../sass/kenstimpson.views.scss */
   .ks_content .ks_centre .policies-list a:link {
     font-size: 1.1em;
     display: inline-block;
     width: 350px;
     border-bottom: 1px dashed #ccc; }
-  /* line 271, ../sass/kenstimpson.views.scss */
+  /* line 273, ../sass/kenstimpson.views.scss */
   .ks_content .ks_centre .policies-list a:hover {
     border-bottom: 1px dashed #2B4F8F; }
-  /* line 275, ../sass/kenstimpson.views.scss */
+  /* line 277, ../sass/kenstimpson.views.scss */
   .ks_content .ks_centre .policies-list a:visited {
     border-bottom: 1px dashed #ccc; }
-  /* line 279, ../sass/kenstimpson.views.scss */
+  /* line 281, ../sass/kenstimpson.views.scss */
   .ks_content .ks_centre .policies-list .policy_review_date {
     font-size: 0.9em;
     color: #A9A9A9; }
 
 /*STUDENT COUNCIL PAGE*/
-/* line 289, ../sass/kenstimpson.views.scss */
+/* line 291, ../sass/kenstimpson.views.scss */
 .view-student-council .views-view-grid {
   width: 100%;
   border-collapse: separate;
   padding: 20px;
   border-spacing: 20px; }
-  /* line 297, ../sass/kenstimpson.views.scss */
+  /* line 299, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid td {
     width: 50%;
     padding: 30px;
@@ -225,48 +231,48 @@ img, media {
     text-align: center;
     font-size: 2em;
     border-bottom-right-radius: 15px; }
-    /* line 306, ../sass/kenstimpson.views.scss */
+    /* line 308, ../sass/kenstimpson.views.scss */
     .view-student-council .views-view-grid td a {
       text-decoration: none;
       width: 100%; }
-    /* line 311, ../sass/kenstimpson.views.scss */
+    /* line 313, ../sass/kenstimpson.views.scss */
     .view-student-council .views-view-grid td a:hover {
       border: 0px;
       text-decoration: none; }
-  /* line 314, ../sass/kenstimpson.views.scss */
+  /* line 316, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-1 .col-1 {
     background-color: aquamarine; }
-  /* line 318, ../sass/kenstimpson.views.scss */
+  /* line 320, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-1 .col-2 {
     background-color: forestgreen; }
-  /* line 322, ../sass/kenstimpson.views.scss */
+  /* line 324, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-2 .col-1 {
     background-color: yellow; }
-  /* line 326, ../sass/kenstimpson.views.scss */
+  /* line 328, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-2 .col-2 {
     background-color: coral; }
-  /* line 330, ../sass/kenstimpson.views.scss */
+  /* line 332, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-3 .col-1 {
     background-color: mediumpurple; }
-  /* line 334, ../sass/kenstimpson.views.scss */
+  /* line 336, ../sass/kenstimpson.views.scss */
   .view-student-council .views-view-grid .row-3 .col-2 {
     background-color: dodgerblue; }
 
 /*GOVERNORS*/
-/* line 344, ../sass/kenstimpson.views.scss */
+/* line 346, ../sass/kenstimpson.views.scss */
 .view-governors .views-row {
   border-bottom: 1px solid #ccc;
   margin-bottom: 10px; }
-/* line 349, ../sass/kenstimpson.views.scss */
+/* line 351, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-title {
   font-size: 1.2em;
   font-weight: bold; }
-/* line 354, ../sass/kenstimpson.views.scss */
+/* line 356, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-field-governor-role,
 .view-governors .views-field-field-governor-profession,
 .view-governors .views-field-field-governor-why {
   margin-bottom: 10px; }
-  /* line 359, ../sass/kenstimpson.views.scss */
+  /* line 361, ../sass/kenstimpson.views.scss */
   .view-governors .views-field-field-governor-role .governor_role_label,
   .view-governors .views-field-field-governor-role .governor_profession_label,
   .view-governors .views-field-field-governor-role .views-label-field-governor-why,
@@ -277,7 +283,7 @@ img, media {
   .view-governors .views-field-field-governor-why .governor_profession_label,
   .view-governors .views-field-field-governor-why .views-label-field-governor-why {
     font-weight: bold; }
-  /* line 365, ../sass/kenstimpson.views.scss */
+  /* line 367, ../sass/kenstimpson.views.scss */
   .view-governors .views-field-field-governor-role .governor_role_value,
   .view-governors .views-field-field-governor-role .governor_profession_value,
   .view-governors .views-field-field-governor-profession .governor_role_value,
@@ -285,18 +291,61 @@ img, media {
   .view-governors .views-field-field-governor-why .governor_role_value,
   .view-governors .views-field-field-governor-why .governor_profession_value {
     /*font-style: italic;*/ }
-/* line 374, ../sass/kenstimpson.views.scss */
+/* line 376, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-field-governor-why .field-content {
   line-height: 2em; }
-/* line 379, ../sass/kenstimpson.views.scss */
+/* line 381, ../sass/kenstimpson.views.scss */
 .view-governors .views-field-field-image {
   float: right;
   margin-left: 10px;
   margin-bottom: 10px;
   display: inline-block; }
-/* line 386, ../sass/kenstimpson.views.scss */
+/* line 388, ../sass/kenstimpson.views.scss */
 .view-governors .governors_clear {
   clear: both;
   height: 0px; }
+
+/*VACANCY PAGE*/
+/* line 396, ../sass/kenstimpson.views.scss */
+.page-vacancies h1 {
+  display: none; }
+
+/* line 400, ../sass/kenstimpson.views.scss */
+.view-vacancy-page .views-field-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+/* line 407, ../sass/kenstimpson.views.scss */
+.view-vacancy-page .views-label-field-closing-date,
+.view-vacancy-page .views-label-field-post-title,
+.view-vacancy-page .views-label-field-grade,
+.view-vacancy-page .views-label-field-hours,
+.view-vacancy-page .views-label-field-responsible-to,
+.view-vacancy-page .views-label-field-purpose-of-the-job,
+.view-vacancy-page .views-label-field-main-responsibilities,
+.view-vacancy-page .views-label-field-attachment-s- {
+  font-weight: bold; }
+
+/* line 418, ../sass/kenstimpson.views.scss */
+.view-vacancy-page .views-field-body,
+.view-vacancy-page .views-field-field-closing-date .field-content,
+.view-vacancy-page .views-field-field-post-title .field-content,
+.view-vacancy-page .views-field-field-grade .field-content,
+.view-vacancy-page .views-field-field-hours .field-content,
+.view-vacancy-page .views-field-field-responsible-to .field-content,
+.view-vacancy-page .views-field-field-purpose-of-the-job .field-content,
+.view-vacancy-page .views-field-field-main-responsibilities .field-content,
+.view-vacancy-page .views-field-field-attachment-s- .field-content {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: justify;
+  margin-bottom: 10px; }
+
+/*WEEKLY NEWSLETTERS*/
+/* line 435, ../sass/kenstimpson.views.scss */
+.view-weekly-newsletters img {
+  max-width: inherit; }
 
 /*# sourceMappingURL=kenstimpson.views.css.map */
