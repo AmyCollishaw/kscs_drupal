@@ -94,6 +94,8 @@
 		position: absolute;
 		
 	}
+	
+	@include rounded-box;
 }
 
 
@@ -388,4 +390,49 @@
 		clear:both;
 		height: 0px;
 	}
+}
+
+/*VACANCY PAGE*/
+.page-vacancies h1
+{
+	display: none;
+}
+.view-vacancy-page .views-field-title
+{
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.view-vacancy-page .views-label-field-closing-date,
+.view-vacancy-page .views-label-field-post-title,
+.view-vacancy-page .views-label-field-grade,
+.view-vacancy-page .views-label-field-hours,
+.view-vacancy-page .views-label-field-responsible-to,
+.view-vacancy-page .views-label-field-purpose-of-the-job,
+.view-vacancy-page .views-label-field-main-responsibilities,
+.view-vacancy-page .views-label-field-attachment-s-
+{
+	font-weight: bold;	
+}
+.view-vacancy-page .views-field-body,
+.view-vacancy-page .views-field-field-closing-date .field-content,
+.view-vacancy-page .views-field-field-post-title .field-content,
+.view-vacancy-page .views-field-field-grade .field-content,
+.view-vacancy-page .views-field-field-hours .field-content,
+.view-vacancy-page .views-field-field-responsible-to .field-content,
+.view-vacancy-page .views-field-field-purpose-of-the-job .field-content,
+.view-vacancy-page .views-field-field-main-responsibilities .field-content,
+.view-vacancy-page .views-field-field-attachment-s- .field-content
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: justify;
+	margin-bottom: 10px;
+}
+
+/*WEEKLY NEWSLETTERS*/
+.view-weekly-newsletters img
+{
+	max-width: inherit;
 }

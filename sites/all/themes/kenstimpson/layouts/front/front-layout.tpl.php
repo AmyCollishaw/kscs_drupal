@@ -64,10 +64,6 @@
 					
 	</div>
 	
-
-	<?php if($page['footer']) { ?>
-		<div class="ks_footer"><?php echo render($page['footer']); ?></div>
-	<?php } ?>
 	
 	
 </div>
@@ -84,6 +80,11 @@
 		<?php if($page['bottom_second']) { ?>
 			<div class="ks_bottom_second"><?php echo render($page['bottom_second']); ?></div>
 		<?php } ?>
+		
+		
 	
 	</div>
+	<?php if($page['footer']) { ?>
+		<div class="ks_footer"><?php echo render($page['footer']); ?></div>
+		<?php } ?>
 </div>

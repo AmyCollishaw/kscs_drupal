@@ -370,11 +370,27 @@ a:hover
 		.menu
 		{
 			text-align: left;
-			padding-left: 55px;
+			/*padding-left: 55px;*/
+		}
+		.menu .expanded
+		{
+			list-style: none;
 		}
 		.expanded .menu
 		{
 			font-size: .8em;
+			list-style:  none;
+			padding-left: 0px;
+			margin-left: 0px;
+			li 
+			{
+				display: block;
+				width: 300px;
+				border-top: 1px dashed $subMenuFontColour;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-left: 10px;
+			}
 		}
 
 	}
@@ -492,6 +508,16 @@ a:hover
 		border: 0px solid green;
 	}
 }
+
+
+	.ks_footer
+	{
+		clear: both;
+		text-align: right;
+		width: 100%;
+		font-size: $smallerText;
+	}
+
 
 .ks_content .block
 {

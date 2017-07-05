@@ -178,6 +178,7 @@ function facebook_pull_settings($form_state) {
     '#title' => t('Fields'),
     '#options' => array(
      'picture' => 'picture',
+		  'full_picture'=>'full_picture',
 		  'message' => 'message',
       'from' => 'from',
      'type' => 'type',

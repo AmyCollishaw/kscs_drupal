@@ -71,9 +71,7 @@
 	</div>
 	
 
-	<?php if($page['footer']) { ?>
-		<div class="ks_footer"><?php echo render($page['footer']); ?></div>
-	<?php } ?>
+	
 	
 	
 </div>
@@ -96,4 +94,7 @@
 		<?php } ?>
 	
 	</div>
+	<?php if($page['footer']) { ?>
+		<div class="ks_footer"><?php echo render($page['footer']); ?></div>
+	<?php } ?>
 </div>

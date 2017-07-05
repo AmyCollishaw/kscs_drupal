@@ -1,0 +1,233 @@
+<?php
+
+/**
+ * @file
+ * Main file of Anchors Panels Navigation module.
+ */
+
+/**
+ * Implements hook_preprocess_panels_pane().
+ */
+function anchors_panels_navigation_preprocess_panels_pane(&$variables) {
+  $hashes = &drupal_static('anchors_panels_navigation_hashes', array());
+  if (
+    is_object($variables['pane'])
+    && !empty($variables['content'])
+    && !empty($variables['pane']->configuration['anchors_panels_navigation_anchor'])
+  ) {
+    // Generate a machine name based on the pane title.
+    $anchor_title = $variables['pane']->configuration['anchors_panels_navigation_anchor'];
+    $anchor_name = _anchors_panels_navigation_anchor_name($anchor_title);
+    $variables['pane']->css['css_id'] = $anchor_name;
+    // set configuration flag so the menu block knows if it should generate a menu item
+    $variables['pane']->has_content = TRUE;
+  }
+
+  if (!empty($variables['pane']->css['css_id'])) {
+    $hashes[] = $variables['pane']->css['css_id'];
+    $variables['pane_prefix'] = '<a name="' . $variables['pane']->css['css_id'] . '"></a>' . $variables['pane_prefix'];
+    libraries_load('appear');
+    drupal_add_js(array(
+      'anchors_panels_navigation' => array(
+        'hashes' => $hashes,
+        'classes_remove' => variable_get('anchors_panels_navigation_' . arg(1) . '_classes_remove', 'active-trail active'),
+        'classes_set' => variable_get('anchors_panels_navigation_' . arg(1) . '_classes_set', 'active'),
+        'fix_panel_height' => variable_get('anchors_panels_navigation_' . arg(1) . '_fix_panel_height', FALSE),
+        'top_offset' => variable_get('anchors_panels_navigation_' . arg(1) . '_top_offset', 0),
+      ),
+    ), 'setting');
+    drupal_add_js(drupal_get_path("module", "anchors_panels_navigation") . "/anchors_panels_navigation.js");
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function anchors_panels_navigation_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'panel_node_form') {
+    $form['anchors_panels_navigation'] = array(
+      '#type' => 'fieldset',
+      '#title' => t('Anchors Panels Navigation Settings'),
+      '#weight' => 10,
+      '#collapsible' => TRUE,
+      '#collapsed' => FALSE,
+    );
+    $form['anchors_panels_navigation']['fix_panel_height'] = array(
+      '#type' => 'checkbox',
+      '#title' => t('Panel height should be more than screen height.'),
+      '#default_value' => variable_get('anchors_panels_navigation_' . $form['nid']['#value'] . '_fix_panel_height', FALSE),
+    );
+    $form['anchors_panels_navigation']['top_offset'] = array(
+      '#title' => t('Top offset'),
+      '#type' => 'textfield',
+      '#description' => t('Vertical offset for each panel where script will scroll and where script will change anchors in address string according browser window. It is zero by default.'),
+      '#default_value' => variable_get('anchors_panels_navigation_' . $form['nid']['#value'] . '_top_offset', 0),
+    );
+    $form['anchors_panels_navigation']['classes_remove'] = array(
+      '#title' => t('Classes to remove'),
+      '#type' => 'textfield',
+      '#description' => t('List of classes that should be removed in the links to inactive anchors.'),
+      '#default_value' => variable_get('anchors_panels_navigation_' . $form['nid']['#value'] . '_classes_remove', 'active-trail active'),
+    );
+    $form['anchors_panels_navigation']['classes_set'] = array(
+      '#title' => t('Classes to set'),
+      '#type' => 'textfield',
+      '#description' => t('List of classes that should be set to the active anchor link.'),
+      '#default_value' => variable_get('anchors_panels_navigation_' . $form['nid']['#value'] . '_classes_set', 'active'),
+    );
+    $form['#submit'][] = 'anchors_panels_navigation_form_submit';
+    $form['#validate'][] = 'anchors_panels_navigation_form_validate';
+  }
+  elseif (
+    $form_id == 'ctools_entity_field_content_type_formatter_options'
+    || $form_id == 'views_content_views_panes_content_type_edit_form'
+  ) {
+    // Panelizer form.
+    $form['anchors_panels_navigation'] = array(
+      '#type' => 'fieldset',
+      '#title' => t('Anchors Panels Navigation Settings'),
+      '#weight' => 10,
+      '#collapsible' => TRUE,
+      '#collapsed' => FALSE,
+    );
+    $form['anchors_panels_navigation']['anchors_panels_navigation_anchor'] = array(
+      '#type' => 'textfield',
+      '#title' => t('Anchor Title'),
+      '#description' => t('If you are using the "Automatic Anchor Menu" this panel will show up in that menu automatically. Insert the human-readable title for this pane here. Leave this blank for no anchor.'),
+      '#default_value' => isset($form_state['conf']['anchors_panels_navigation_anchor']) ? $form_state['conf']['anchors_panels_navigation_anchor'] : '',
+    );
+    $form['#submit'][] = 'anchors_panels_navigation_pane_form_submit';
+  }
+}
+
+/**
+ * Validate Top offset value.
+ */
+function anchors_panels_navigation_form_validate($form, &$form_state) {
+  if (!is_numeric($form_state['values']['top_offset'])) {
+    form_set_error('top_offset', t('Top offset must be numeric!'));
+  }
+}
+
+/**
+ * Save this module settings for current panels node.
+ */
+function anchors_panels_navigation_form_submit($form, &$form_state) {
+  if (isset($form_state['values']['top_offset'])) {
+    variable_set('anchors_panels_navigation_' . $form_state['values']['nid'] . '_top_offset', $form_state['values']['top_offset']);
+  }
+  if (isset($form_state['values']['fix_panel_height'])) {
+    variable_set('anchors_panels_navigation_' . $form_state['values']['nid'] . '_fix_panel_height', $form_state['values']['fix_panel_height']);
+  }
+  if (isset($form_state['values']['classes_remove'])) {
+    variable_set('anchors_panels_navigation_' . $form_state['values']['nid'] . '_classes_remove', $form_state['values']['classes_remove']);
+  }
+  if (isset($form_state['values']['classes_set'])) {
+    variable_set('anchors_panels_navigation_' . $form_state['values']['nid'] . '_classes_set', $form_state['values']['classes_set']);
+  }
+}
+
+/**
+ * @param $form
+ * @param $form_state
+ */
+function anchors_panels_navigation_pane_form_submit($form, &$form_state) {
+  if (isset($form_state['values']['anchors_panels_navigation_anchor'])) {
+    $form_state['conf']['anchors_panels_navigation_anchor'] = $form_state['values']['anchors_panels_navigation_anchor'];
+  }
+}
+
+/**
+ * Implements hook_libraries_info() of Libraries API module.
+ */
+function anchors_panels_navigation_libraries_info() {
+  $libraries = array();
+  $libraries['appear'] = array(
+    'name' => 'jQuery.appear',
+    'vendor url' => 'https://github.com/morr/jquery.appear',
+    'download url' => 'https://github.com/morr/jquery.appear',
+    'version arguments' => array(
+      'file' => 'jquery.appear.js',
+      'pattern' => '/Version: (\d+\.+\d+\.+\d+)/',
+      'lines' => 9,
+    ),
+    'files' => array(
+      'js' => array('jquery.appear.js'),
+    ),
+  );
+  return $libraries;
+}
+
+/**
+ * Implements hook_libraries_info() of Libraries API module.
+ */
+function anchors_panels_navigation_requirements($phase) {
+  $requirements = array();
+  if ($phase == 'runtime') {
+    $anchors_panels_navigation_appear = libraries_detect('appear');
+    $requirements ['appear'] = array(
+      'title' => t('jQuery.appear'),
+      'weight' => 100
+    );
+    if ($anchors_panels_navigation_appear['installed']) {
+      $requirements ['appear']['value'] = $anchors_panels_navigation_appear['version'];
+      $requirements ['appear']['severity'] = REQUIREMENT_OK;
+    }
+    else {
+      $requirements ['appear']['value'] = t('Please install jQuery.appear library. See more information and instructions in README.txt or on the project page <a href="https://www.drupal.org/project/anchors_panels_navigation" target="_blank">https://www.drupal.org/project/anchors_panels_navigation</a>');
+      $requirements ['appear']['severity'] = REQUIREMENT_ERROR;
+    }
+  }
+  return $requirements;
+}
+
+/**
+ * Implements hook_ctools_plugin_directory().
+ */
+function anchors_panels_navigation_ctools_plugin_directory($owner, $plugin_type) {
+  if ($owner == 'ctools' && $plugin_type == 'content_types') {
+    return 'plugins/' . $plugin_type;
+  }
+}
+
+/**
+ * Insert the anchor tag on the first #markup found.
+ *
+ * Return TRUE if successful.
+ *
+ * @param array  $content
+ * @param string $anchor
+ * @return bool
+ */
+function _anchors_panels_navigation_insert_anchor(&$content, $anchor) {
+  $inserted = FALSE;
+  foreach ($content as $key => &$item) {
+    if ($key == '#contextual_links') {
+      continue;
+    }
+    if (is_array($item)) {
+      $inserted = _anchors_panels_navigation_insert_anchor($item, $anchor);
+    }
+    elseif ($key == '#markup') {
+      $item = $anchor . $item;
+      $inserted = TRUE;
+    }
+    if ($inserted) {
+      break;
+    }
+  }
+  return $inserted;
+}
+
+/**
+ * Generate a machine name for use in anchor names.
+ *
+ * @param string $string
+ *    Feed in a title or any string.
+ *
+ * @return string
+ *    Returns a safe anchor name.
+ */
+function _anchors_panels_navigation_anchor_name($string) {
+  return preg_replace('@[^a-z0-9-]+@', '-', strtolower($string));
+}
